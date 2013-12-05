@@ -184,6 +184,9 @@ $main_category = get_categories($args);
 				 <?php include PATH_PAGES . DS . 'search_form.php' ?>
 				 
 				 <div class="review_link"><a class="" href="#home">Write a review</a></div>
+				 				 
+				 <div class="review_linkn"><a class="" href="#home">Write a review</a></div>
+
 				</div>
 		  </div>
 		</div>

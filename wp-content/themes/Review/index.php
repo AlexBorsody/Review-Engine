@@ -7,12 +7,12 @@ get_header();
 	     <div class="nav-container" style="height: auto;">
 	     <nav class="" style="top: 0px;">
 		     <ul>
-			     <li><a class="" href="#home"><img src="<?php print TEMPLATE_URL;?>/images/img1.png" alt="Image1"></a>
-			          <span>Lorem ipsum dolor sit amet<br> Lorem ipsum dolor</span></li>
-			     <li><a href="#whatwedo" class=""><img src="<?php print TEMPLATE_URL;?>/images/img2.png" alt="Image2"></a>
-			          <span>Lorem ipsum dolor sit amet<br> Lorem ipsum dolor</span></li>
-			     <li><a href="#howwework"><img src="<?php print TEMPLATE_URL;?>/images/img3.png" alt="Image3"></a>
-			          <span>Lorem ipsum dolor sit amet<br> Lorem ipsum dolor</span></li>
+			     <li><div id="icon"></div>
+			          <div id="textFirst">Lorem ipsum dolor sit amet<br> Lorem ipsum dolor</div></li>
+			     <li><div id="iconSecond"></div>
+			          <div id="textSecond">Lorem ipsum dolor sit amet<br> Lorem ipsum dolor</div></li>
+			     <li><div id="iconThird"></div>
+			           <div id="textThird">Lorem ipsum dolor sit amet<br> Lorem ipsum dolor</div></li>
 		     </ul>
           </nav>
           </div>
