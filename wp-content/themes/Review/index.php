@@ -27,117 +27,7 @@ get_header();
 							  dynamic_sidebar( 'homepage-widget-area' );
 						  }
 						  ?> 
-					 <!-- End Notification Sidebar -->					
-					 <?php
-					 
-					$top_products = query_top_products();	
-					if ( !empty( $top_products ) ) { ?>
-					<div class="col">
-						  <div class="section-title">
-								<h1 class="blue2"><?php _e('Top agencies','re'); ?></h1>
-						  </div>
-							<?php
-								$i = 0;
-								foreach( $top_products as $post ) {
-									 the_post( $post );
-									 $post_id = $post->ID;
-									 $image_thumb = get_post_meta ( $post->ID ,'tgt_product_images',true);
-							?> 
-						<div class="col_box">
-							<?php if($i == 0) { ?>
-								<div class="vote">
-									<p><?php echo $i+1; ?></p>  
-								</div>
-							<?php } else { ?>
-								<div class="vote" style="background:url('<?php echo TEMPLATE_URL; ?>/images/icon_vote2.png') no-repeat scroll center center transparent;">                        
-									<p><?php echo $i+1; ?></p>  
-								</div>
-							<?php } ?>
-							<div class="avatar">
-								<?php
-								if( has_post_thumbnail ($post_id) ){
-									 $thumb_url =  wp_get_attachment_image_src( get_post_thumbnail_id($post_id), array( 104, 84) );
-									 echo '<div class="index-thumb">';								  
-									 echo wp_get_attachment_image( get_post_thumbnail_id($post_id), array( 104, 84) );				  
-									 echo '</div>';
-								} else {
-									echo '<img src="'.TEMPLATE_URL.'/images/no_image.jpg" style="width:104px;height:84px;" alt=""/>';
-								} ?> 								
-								<div class="vote_star" style="text-align: center">	
-									<div class="star" style="">
-									<?php
-									$rating = get_post_meta ( $post->ID , get_showing_rating(),true);
-									tgt_display_rating( $rating, 'top_rating_'.$post->ID, true, 'star-disabled' );
-									?>	
-									</div>
-										
-									
-								</div>
-								<div class="clear"></div>
-								
-								<p>
-									<a href="<?php echo get_permalink ( $post->ID); ?>">
-										<?php echo tgt_comment_count( 'No Review', '%d Review', '%d Reviews', $post->comment_count); ?>
-									</a>
-								</p>
-							</div>
-							
-							<div class="text">
-								<div class="title">
-									<div class="title_left">
-										<h1><a href="<?php echo get_permalink ( $post->ID); ?>">
-										<?php
-									  	$the_post = get_post( $post->ID , ARRAY_A);
-									  	$title = $post->post_title;
-									  	$content = $post->post_content;
-									  	if(strlen($title) > 32) {
-										  	echo substr($title,0,31).'...'; 
-										}else{
-											echo $title;
-										}
-										?>										
-										</a></h1>
-										<p>
-										<?php
-										//list tags					
-										$tags = get_the_tags();
-										$tag_link_arr = array();
-										if($tags != '') {
-											foreach($tags as $tags_item)	
-											$tag_link_arr[] = '<a href="'.get_tag_link($tags_item->term_id).'">'.$tags_item->name.'</a>';
-										} else {
-											$tag_link_arr[] = __('No tags','re');												
-										}
-										echo '<span class="tag-list">';
-										echo implode(',',$tag_link_arr);
-										echo '</span>';
-										?>										
-										</p>
-									</div>                                    
-									
-								</div>
-								
-								<div class="content_text">
-									<p><?php echo tgt_limit_content($content, 34); ?> <a href="<?php echo get_permalink($post_id); ?>"><?php _e('more','re'); ?>&nbsp;&raquo;</a></p>
-									
-									<div class="box_butt" style="float:left; margin-top:15px;">
-									<?php
-													 $product_website = '#';
-													 if(get_post_meta($post_id,'tgt_product_url',true) != '') {
-														 $product_website =  tgt_get_the_product_link($post_id);
-													 ?>	
-										<p class="blue">
-														  <a href="<?php echo esc_url_raw($product_website); ?>"  target="_blank"><?php _e('Visit Website','re'); ?></a>
-													 </p>
-													 <?php } ?>
-									</div>
-								</div>
-							</div>
-						</div> 
-						<?php $i++;
-						} ?>
-					</div>	
-					<?php } ?>                                          
+					 <!-- End Notification Sidebar -->					                                          
 					<div class="clear"></div>
 					<?php
 						/**
@@ -277,7 +167,129 @@ get_header();
 					}else
 			echo '<font color="#FF0000" style="font-style:italic">'.__('No Result Found Here !','re').'</font>';
 			?>       
-			
+			<div class="clear"></div>
+				 <?php
+                         global $wp_query, $wpdb; 
+                         $max = $wp_query->max_num_pages;
+                         $paged = ( isset($_GET['paged']) ) ? $_GET['paged'] : 1;
+                         
+ 		
+					$top_products = query_top_products($paged);
+					if ( !empty( $top_products ) ) { ?>
+					<div class="section-title">
+						<h1 class="blue2"><?php _e('All agencies','re'); ?></h1>
+                         </div>
+					<div class="col infinite-scroll">
+							<?php
+								$i = 0;
+								foreach( $top_products as $post ) {
+									 the_post( $post );
+									 $post_id = $post->ID;
+									 $image_thumb = get_post_meta ( $post->ID ,'tgt_product_images',true);
+							?> 
+						<div class="col_box">
+							<?php if($i == 0) { ?>
+								<div class="vote">
+									<p><?php echo $i+1; ?></p>  
+								</div>
+							<?php } else { ?>
+								<div class="vote" style="background:url('<?php echo TEMPLATE_URL; ?>/images/icon_vote2.png') no-repeat scroll center center transparent;">                        
+									<p><?php echo $i+1; ?></p>  
+								</div>
+							<?php } ?>
+							<div class="avatar">
+								<?php
+								if( has_post_thumbnail ($post_id) ){
+									 $thumb_url =  wp_get_attachment_image_src( get_post_thumbnail_id($post_id), array( 104, 84) );
+									 echo '<div class="index-thumb">';								  
+									 echo wp_get_attachment_image( get_post_thumbnail_id($post_id), array( 104, 84) );				  
+									 echo '</div>';
+								} else {
+									echo '<img src="'.TEMPLATE_URL.'/images/no_image.jpg" style="width:104px;height:84px;" alt=""/>';
+								} ?> 								
+								<div class="vote_star" style="text-align: center">	
+									<div class="star" style="">
+									<?php
+									$rating = get_post_meta ( $post->ID , get_showing_rating(),true);
+									tgt_display_rating( $rating, 'top_rating_'.$post->ID, true, 'star-disabled' );
+									?>	
+									</div>
+										
+									
+								</div>
+								<div class="clear"></div>
+								
+								<p>
+									<a href="<?php echo get_permalink ( $post->ID); ?>">
+										<?php echo tgt_comment_count( 'No Review', '%d Review', '%d Reviews', $post->comment_count); ?>
+									</a>
+								</p>
+							</div>
+							
+							<div class="text">
+								<div class="title">
+									<div class="title_left">
+										<h1><a href="<?php echo get_permalink ( $post->ID); ?>">
+										<?php
+									  	$the_post = get_post( $post->ID , ARRAY_A);
+									  	$title = $post->post_title;
+									  	$content = $post->post_content;
+									  	if(strlen($title) > 32) {
+										  	echo substr($title,0,31).'...'; 
+										}else{
+											echo $title;
+										}
+										?>										
+										</a></h1>
+										<p>
+										<?php
+										//list tags					
+										$tags = get_the_tags();
+										$tag_link_arr = array();
+										if($tags != '') {
+											foreach($tags as $tags_item)	
+											$tag_link_arr[] = '<a href="'.get_tag_link($tags_item->term_id).'">'.$tags_item->name.'</a>';
+										} else {
+											$tag_link_arr[] = __('No tags','re');												
+										}
+										echo '<span class="tag-list">';
+										echo implode(',',$tag_link_arr);
+										echo '</span>';
+										?>										
+										</p>
+									</div>                                    
+									
+								</div>
+								
+								<div class="content_text">
+									<p><?php echo tgt_limit_content($content, 34); ?> <a href="<?php echo get_permalink($post_id); ?>"><?php _e('more','re'); ?>&nbsp;&raquo;</a></p>
+									
+									<div class="box_butt" style="float:left; margin-top:15px;">
+									<?php
+													 $product_website = '#';
+													 if(get_post_meta($post_id,'tgt_product_url',true) != '') {
+														 $product_website =  tgt_get_the_product_link($post_id);
+													 ?>
+										<p class="blue">
+														  <a href="<?php echo esc_url_raw($product_website); ?>"  target="_blank"><?php _e('Visit Website','re'); ?></a>
+													 </p>
+													 <?php } ?>
+									</div>
+								</div>
+							</div>
+						</div> 
+						<?php $i++;
+						} ?>
+						<!------Pagination link start---->
+                              <div class="load-more">
+                                  <?php if ($paged) { $page_no = $paged+1; ?>
+                                      <a href="<?php  bloginfo('url'); ?>/?paged=<?php echo $page_no; ?>" class="jscroll-next jscroll-next-parent"><img src="<?php bloginfo('template_directory'); ?>/images/load-more.png" alt="Next"></a>				        
+                                  <?php } else if ($max == $paged ) { $page_no = $paged; ?>
+                                      <a href="<?php  bloginfo('url'); ?>/?paged=<?php echo $page_no; ?>" class="jscroll-next next jscroll-next-parent" onclick="return false"><img src="<?php bloginfo('template_directory'); ?>/images/load-more.png" alt="Load More"></a>				        
+                                  <?php } ?>
+                              </div><!--load-more ends here-->
+					</div>	
+					<?php } ?>
                <!--<div id="content">
                     <div class="section-title"><h1 class="blue2">All Agencies</h1></div>
                    <?php
@@ -312,21 +324,20 @@ jQuery(function($) {
     $('#content').on('click', '#pagination a', function(e){
         e.preventDefault();
         var link = $(this).attr('href');
-        var strdata = '';
         $('#content').fadeOut(500, function(){
             $(this).load(link + ' #content', function() {
                 $(this).fadeIn(500);
-                    /*$.ajax({
-                      type: "POST",
-                      url: link,
-                      data: strdata,
-                      success: function (returnedData) {
-                          //$('#content').html(returnedData);
-                      }
-                  });*/
             });
         });
     });
+
+     $('.infinite-scroll').jscroll({
+         loadingHtml: '<img src="http://review.devserver2012.com/wp-content/themes/Review/images/ajax-loader.gif" alt="Loading..." />',
+         padding: 20,
+         nextSelector: 'a.jscroll-next:last',
+         contentSelector: '.infinite-scroll',
+         autoTrigger: true
+     });
 });
 </script>
 

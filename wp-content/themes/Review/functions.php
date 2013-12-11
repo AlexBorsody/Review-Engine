@@ -71,8 +71,8 @@ function remove_dashboard(){
      global $user_ID;
      if ( current_user_can( 'reviewer' ) ) {
           echo "<style> 
-                    #dashboard-widgets-wrap,#wpadminbar,#screen-meta-links{display:none;}
-                    html.wp-toolbar { padding-top: 0px !important; } 
+                    #dashboard-widgets-wrap,li#wp-admin-bar-comments, li#wp-admin-bar-new-content, #screen-meta-links{display:none;}
+                    /*html.wp-toolbar { padding-top: 0px !important;*/ } 
                </style>";
           //add_menu_page('Back to homepage', 'custom menu', 'manage_options', get_bloginfo('url'), 'my_custom_menu_page', plugins_url( 'myplugin/images/icon.png' ), 6 );
      }

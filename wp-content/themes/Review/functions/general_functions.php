@@ -1972,7 +1972,7 @@ function init_top_product()
 /**
  * Query all top rated products
  */
-function query_top_products(){
+function query_top_products($paged){
 	//add_filter('posts_join' , 'filter_join_top_product');
 	//add_filter('posts_groupby' , 'filter_groupby_top_product');
 	$list = (array)get_option( PRODUCT_TOP , array() );
@@ -1985,14 +1985,16 @@ function query_top_products(){
 	$args = array( 'post_type' => 'product' ,
 						'meta_key' => $show_rating,
 						'orderby' => 'meta_value_num' ,
-						'posts_per_page' => get_option(SETTING_TOP_NUMBER_PRODUCT , 5) );	
+						'posts_per_page' => get_option(SETTING_TOP_NUMBER_PRODUCT , 5),
+						'paged' => $paged );	
 	
 	if (get_option (PRODUCT_TOP_DISPLAY) == 1) {
 		$args = array( 'post_type' => 'product' ,
 						'meta_key' => $show_rating,
 						'post__in' => $list,
 						'orderby' => 'none',
-						'posts_per_page' => get_option(SETTING_TOP_NUMBER_PRODUCT , 5) );	
+						'posts_per_page' => get_option(SETTING_TOP_NUMBER_PRODUCT , 5),
+						'paged' => $paged );	
 	}
 	$queries = query_posts( $args );
 	

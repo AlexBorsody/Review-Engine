@@ -51,6 +51,7 @@ $args = array(
 	'pad_counts'               => false );
 $main_category = get_categories($args);
 ?>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.jscroll.min.js"></script>
 <title><?php wp_title(); ?></title>
 </head>
 <body <?php body_class(); ?>>
