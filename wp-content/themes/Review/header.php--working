@@ -39,9 +39,6 @@ $helper->favicon();
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <?php wp_head(); ?>
-
-
-
 <?php
 $args = array(
 	'type'                     => 'post',
@@ -55,14 +52,6 @@ $args = array(
 $main_category = get_categories($args);
 ?>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.jscroll.min.js"></script>
-<script>
-/**
- * Copyright (c) 2007-2012 Ariel Flesler - aflesler(at)gmail(dot)com | http://flesler.blogspot.com
- * Dual licensed under MIT and GPL.
- * @author Ariel Flesler
- * @version 1.4.3.1
- */
-</script>
 <title><?php wp_title(); ?></title>
 </head>
 <body <?php body_class(); ?>>
@@ -89,8 +78,7 @@ $main_category = get_categories($args);
                                    }else
                                    {
                                    ?>
-								    <img src="/logo.png"/>
-	                                  <!-- <img src="<?//php echo WP_CONTENT_URL .'/uploads/re/'.$curr_logo[0]; ?>" title="<?//php _e('Current Logo','re');?>" alt=""/>-->
+	                                   <img src="<?php echo WP_CONTENT_URL .'/uploads/re/'.$curr_logo[0]; ?>" title="<?php _e('Current Logo','re');?>" alt=""/>
                                    <?php
                                    }
                                    ?>
@@ -115,7 +103,8 @@ $main_category = get_categories($args);
 								      cookie : true,
 								      xfbml  : true
 								    });
-								    FB.Event.subscribe('auth.login', function(response) {								    	  
+								    FB.Event.subscribe('auth.login', function(response) {
+								          console.log("Responce from FB - Header"+ response);
 										window.location.reload();										
 										response = null;
 									});
@@ -123,7 +112,68 @@ $main_category = get_categories($args);
 										response = null;
 									});
 								  };
+  // Here we subscribe to the auth.authResponseChange JavaScript event. This event is fired
+  // for any authentication related change, such as login, logout or session refresh. This means that
+  // whenever someone who was previously logged out tries to log in again, the correct case below 
+  // will be handled. 
+  FB.Event.subscribe('auth.authResponseChange', function(response) {
+    // Here we specify what we do with the response anytime this event occurs. 
+    if (response.status === 'connected') {
+      // The response object is returned with a status field that lets the app know the current
+      // login status of the person. In this case, we're handling the situation where they 
+      // have logged in to the app.
+      testAPI();
+    } else if (response.status === 'not_authorized') {
+      // In this case, the person is logged into Facebook, but not into the app, so we call
+      // FB.login() to prompt them to do so. 
+      // In real-life usage, you wouldn't want to immediately prompt someone to login 
+      // like this, for two reasons:
+      // (1) JavaScript created popup windows are blocked by most browsers unless they 
+      // result from direct interaction from people using the app (such as a mouse click)
+      // (2) it is a bad experience to be continually prompted to login upon page load.
+      FB.login();
+    } else {
+      // In this case, the person is not logged into Facebook, so we call the login() 
+      // function to prompt them to do so. Note that at this stage there is no indication
+      // of whether they are logged into the app. If they aren't then they'll see the Login
+      // dialog right after they log in to Facebook. 
+      // The same caveats as above apply to the FB.login() call here.
+      FB.login();
+    }
+  });
+  
+  // Load the SDK asynchronously
+  (function(d){
+   var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+   if (d.getElementById(id)) {return;}
+   js = d.createElement('script'); js.id = id; js.async = true;
+   js.src = "//connect.facebook.net/en_US/all.js";
+   ref.parentNode.insertBefore(js, ref);
+  }(document));
+
+  // Here we run a very simple test of the Graph API after login is successful. 
+  // This testAPI() function is only called in those cases. 
+  function testAPI() {
+    console.log('Welcome!  Fetching your information.... ');
+    FB.api('/me', function(response) {
+      console.log('Good to see you, ' + response.name + '.');
+    });
+  }
+								  /*(function() {
+								    var e = document.createElement('script');
+								    e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+								    e.async = true;
+								    document.getElementById('fb-root').appendChild(e);										    
+								  }());*/
 								</script>
+								<!--<div id="fb-root"></div>
+                                        <script>(function(d, s, id) {
+                                          var js, fjs = d.getElementsByTagName(s)[0];
+                                          if (d.getElementById(id)) return;
+                                          js = d.createElement(s); js.id = id;
+                                          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=222511274539894";
+                                          fjs.parentNode.insertBefore(js, fjs);
+                                        }(document, 'script', 'facebook-jssdk'));</script>-->
 								<?php } ?>
 								<ul>
 								<li><?php echo $helper->link('<strong>'.__('Login', 're').'</strong>', tgt_get_permalink('login') );?>
@@ -131,6 +181,7 @@ $main_category = get_categories($args);
 								</li>
 						<?php if($enable_fb_login) {?>
 								<li id="fb_login"><?php echo $helper->link($helper->image('icon_facebook.gif', 'fb_login'), ''); ?></li>
+								<!--<div class="fb-login-button" data-max-rows="1" data-show-faces="false"></div>-->
 						<?php }?>
 								<li><?php echo $helper->link('<strong>'.__('Register','re').'</strong>', tgt_get_permalink('register') )?>
 								<?php echo $helper->image('li_arrow1.gif', 'arrow')?></li>
@@ -155,4 +206,38 @@ $main_category = get_categories($args);
 				</div>
 			</div>
 		</div>
-		
+			<div class="header_search">
+			<div class="searchbar">
+               <!--<div class="logo">
+					<a href="<?php echo HOME_URL; ?>">
+					<?php
+					$curr_logo = '/images/logo.png';
+					$curr_logo = explode('/',get_option(SETTING_LOGO));
+					?>
+					<?php
+					if(count($curr_logo) > 1 && $curr_logo[0] == 'images')
+					{
+					?>
+						<img src="<?php echo TEMPLATE_URL.'/'.$curr_logo[0].'/'.$curr_logo[1]; ?>" title="<?php _e('Current Logo','re');?>" alt=""/>									
+					<?php
+					}else
+					{
+					?>
+						<img src="<?php echo WP_CONTENT_URL .'/uploads/re/'.$curr_logo[0]; ?>" title="<?php _e('Current Logo','re');?>" alt=""/>
+					<?php
+					}
+					?>
+				</a>
+			</div>-->
+				<div class="search-box">
+				 <?php include PATH_PAGES . DS . 'search_form.php' ?>
+				 
+				 <div class="review_link"><a class="" href="#home">Write a review</a></div>
+				 				 
+				 <div class="review_linkn"><a class="" href="#home">Write a review</a></div>
+
+				</div>
+		  </div>
+		</div>
+</div>
+<!-- Header end here -->

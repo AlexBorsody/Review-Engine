@@ -6,6 +6,8 @@ body {
 a img {
     border: medium none;
 }
+
+
 img, div {
 }
 
@@ -19,6 +21,7 @@ img, div {
     height: 62px;
     padding: 0;*/
     background: #3F8FBD;
+    box-shadow: 0px 1px 5px rgb(6, 8, 19);
 }
 .header_main {
     height: auto;
@@ -315,7 +318,7 @@ img, div {
     padding: 10px 15px;
 }
 .all p a, .all_hover p a {
-    color: #75930D;
+    color: #30568F;
     font: 12px verdana;
     margin: 0;
     padding: 0;
@@ -465,24 +468,47 @@ img, div {
     padding: 0;
     width: auto;
 }
+
+.home .box_butt {
+  display:none;
+}
 .box_butt p.re {
-    color: #CFD6D6;
+    color: #BABEBE;
     display: inline;
     float: left;
     font: bold 14px arial;
-    margin: 0 0 0 15px;
-    padding: 7px 0 0;
+    margin: 0 0 0 5px;
+    padding: 0px 0 0;
 }
+
 .box_butt p.re a {
-    color: #F75C00;
-    font: bold 14px arial;
-    margin: 0;
-    padding: 0;
-    text-decoration: underline;
+  background: rgb(243, 66, 66);
+border: 1px solid #C21C1C;
+border-radius: 6px 6px 6px 6px;
+box-shadow: 0 1px 0 0 #CA4646 inset;
+color: #FFFFFF;
+display: inline-block;
+font-family: arial;
+font-size: 13px;
+font-weight: bold;
+
+  line-height: 1.3;
+
+  padding: 6px 20px;
+text-decoration: none;
+text-shadow: 1px 1px 0 #490F0F;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
 }
+
+
 .box_butt p.re a:hover {
-    text-decoration: none;
+background: #C21C1C;
 }
+
+
 .box_butt p.green {
     background: url("images/left_green.png") no-repeat scroll left center transparent;
     display: inline;
@@ -579,6 +605,17 @@ img, div {
     padding: 0;
     width: 750px;
 }
+
+.home .col {
+    display: inline;
+    float: right;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 746px;
+    margin-right: 151px;
+}
+
 .col h1.bl {
     color: #4B8DB6;
     display: inline;
@@ -784,13 +821,7 @@ img, div {
     text-align: right;
 }
 .vote {
-    background: url("images/icon_vote.png") no-repeat scroll center center transparent;
-    display: inline;
-    float: left;
-    height: 68px;
-    margin: 0;
-    padding: 0;
-    width: 53px;
+    display: none;
 }
 .vote p {
     color: #FFFFFF;
@@ -1787,7 +1818,7 @@ table tbody tr td span.ts a:hover {
 #footer {
     background: url("images/bg_footer.gif") repeat-x scroll center top #EAEFEF;
     border-top: 1px solid #8D8D8D;
-    min-height: 167px;
+    min-height: 71px;
     padding: 0;
 }
 .footer_res {
@@ -2036,7 +2067,8 @@ table tbody tr td span.ts a:hover {
 /**Bikram**/
 .header_search {
  background: url("images/background_header.jpg") no-repeat fixed center center / cover  rgba(0, 0, 0, 0);
- height: 600px;
+ height: 515px;
+ background-position: 0px -23px;
 }
 html {
     margin-top: 0px !important;
@@ -2072,7 +2104,9 @@ html {
  color:#fff;
  width: 160px;
 }
-.review_link a {
+
+.review_linkn a {
+  -webkit-transition: all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;-ms-transition:all 0.3s ease;
   -moz-text-blink: none;
   -moz-text-decoration-color: -moz-use-text-color;
   -moz-text-decoration-line: none;
@@ -2090,17 +2124,64 @@ html {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   color: rgb(255, 255, 255);
-  font-size: 26px;
+  font-size: 25px;
   padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 50px;
+  padding-left: 9px;
+  padding-right: 51px;
   padding-top: 20px;
+  text-decoration: none;
+}
+
+.review_link a {
+  -webkit-transition: all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;-ms-transition:all 0.3s ease;
+  -moz-text-blink: none;
+  -moz-text-decoration-color: -moz-use-text-color;
+  -moz-text-decoration-line: none;
+  -moz-text-decoration-style: solid;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(243, 86, 109);
+  background-image: url("images/arrow.png");
+  background-origin: padding-box;
+  background-position: 180px center;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 65px;
+  padding-top: 20px;
+  text-decoration: none;
+}
+
+.review_linkn a:hover {
+    background-color: rgb(214, 47, 71);
+  
+}
+
+.review_link a:hover {
+    background-color: rgb(214, 47, 71);
+  
 }
 .review_link {
  float: left;
- margin-top: 35%;
+ margin-top: 15%;
  text-align: center;
  width: 100%;
+ margin-left: -28%;
+}
+
+.review_linkn {
+ float: left;
+ margin-top: -3%;
+ text-align: center;
+ width: 100%;
+ margin-left: 29%;
 }
 
 #icon{
@@ -2108,13 +2189,14 @@ html {
  height: 90px;
  width: 100px;
  float: left;
+ background-position: 1010px;
 }
 
 #iconSecond{
  background: url("images/sprite.png");
  height: 90px;
  width: 100px;
- background-position: 204px;
+ background-position: 304px;
  float: left;
 }
 
@@ -2122,25 +2204,55 @@ html {
  background: url("images/sprite.png");
  height: 90px;
  width: 100px;
- background-position: 106px;
+ background-position: 204px;
  float: left;
 }
 
 #textFirst{
     float: left;
     color: white;
-    margin-top: 26px;
+    margin-top: 2px;
     margin-left: 17px;
+    font-size: 13px;
+    width: 188px;
 }
 #textSecond{
     float: left;
     color: white;
-    margin-top: 26px;
+    margin-top: 3px;
     margin-left: 17px;
+    width: 180px;
 }
 #textThird{
     float: left;
     color: white;
-    margin-top: 26px;
+    margin-top: 4px;
     margin-left: 17px;
+    width: 180px;
 }
+#wpadminbar {
+     display:none;
+}
+.load-more {
+ float: left;
+ text-align: center;
+ width: 100%;
+}
+.jscroll-loading > img {
+ margin-left: 226px;
+}
+.infinite-scroll {
+    margin-right: 109px !important;
+  
+}
+.jscroll-added .infinite-scroll {
+    margin-right: -1px !important;
+  
+}
+
+/*not working*/
+
+.info-review, .info-review + span {
+  
+  display:none;
+}s

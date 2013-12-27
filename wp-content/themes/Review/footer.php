@@ -19,8 +19,8 @@
             </div>
         </div>
     </div>	 
-<?php //wp_footer(); ?>
-
+<?php wp_footer(); ?>
+<?php $enable_fb_login = get_option('tgt_fb_login');?>
 <?php if( $enable_fb_login ) { ?>
 <script >
 jQuery(document).ready(function(){

@@ -1,18 +1,77 @@
+
+
 <?php
 global $helper,$wp_query,$posts, $post, $sorting_pages, $current_custom_page;
 get_header();
 ?>
+		<div class="header_search">
+			<div class="searchbar">
+               <!--<div class="logo">
+					<a href="<?php echo HOME_URL; ?>">
+					<?php
+					$curr_logo = '/images/logo.png';
+					$curr_logo = explode('/',get_option(SETTING_LOGO));
+					?>
+					<?php
+					if(count($curr_logo) > 1 && $curr_logo[0] == 'images')
+					{
+					?>
+						<img src="<?php echo TEMPLATE_URL.'/'.$curr_logo[0].'/'.$curr_logo[1]; ?>" title="<?php _e('Current Logo','re');?>" alt=""/>									
+					<?php
+					}else
+					{
+					?>
+						<img src="<?php echo WP_CONTENT_URL .'/uploads/re/'.$curr_logo[0]; ?>" title="<?php _e('Current Logo','re');?>" alt=""/>
+					<?php
+					}
+					?>
+				</a>
+			</div>-->
+				<div class="search-box">
+				 <?php include PATH_PAGES . DS . 'search_form.php' ?>
+				 
+				 <div class="review_link"><a href="#home" >All Agencies</a></div>
+				 				 
+				 <div class="review_linkn"><a class="" 
+				<?php if (is_user_logged_in())
+{ ?> href="/wp-admin/post-new.php?post_type=product" <?php }
+else
+{ ?> href="/?action=register" <?php }
+?> 
+>Add an Agency</a></div>
+<div id="addHelp" style="
+    background: rgb(47, 147, 255);
+    height: 79px;
+    display: block;
+    width: 249px;
+    position: relative;
+    top: 38px;
+    left: 310px;
+    float: left;
+    padding: 14px;
+    border-radius: 7px;
+    font-size: 14px !important;
+    border: 1px solid rgb(236, 245, 255);
+    color: white;
+	display:none;
+">If you would like to leave a review and do not see the agency you hired listed, you can add it. Upon approval you will be notified and will be able to write your review.</div>
+				</div>
+		  </div>
+		</div>
+</div>
+
+
 	<!-- Body start here -->	 
 	<div id="container_top">
 	     <div class="nav-container" style="height: auto;">
 	     <nav class="" style="top: 0px;">
 		     <ul>
 			     <li><div id="icon"></div>
-			          <div id="textFirst">Lorem ipsum dolor sit amet<br> Lorem ipsum dolor</div></li>
+			          <div id="textFirst">Search for reviews by our users of different creative agencies, so you can best decide on who you should hire, you can also sort by different filters.</div></li>
 			     <li><div id="iconSecond"></div>
-			          <div id="textSecond">Lorem ipsum dolor sit amet<br> Lorem ipsum dolor</div></li>
+			          <div id="textSecond">If a creative agency you hired is not listed, you can add it, an employee of Agencycheck.net will manually review your submission and approve it.</div></li>
 			     <li><div id="iconThird"></div>
-			           <div id="textThird">Lorem ipsum dolor sit amet<br> Lorem ipsum dolor</div></li>
+			           <div id="textThird">You can rate the creative agency you submitted after approval<br> or review an existing agency you have hired already in our database</div></li>
 		     </ul>
           </nav>
           </div>
@@ -283,9 +342,9 @@ get_header();
 						<!------Pagination link start---->
                               <div class="load-more">
                                   <?php if ($paged) { $page_no = $paged+1; ?>
-                                      <a href="<?php  bloginfo('url'); ?>/?paged=<?php echo $page_no; ?>" class="jscroll-next jscroll-next-parent"><img src="<?php bloginfo('template_directory'); ?>/images/load-more.png" alt="Next"></a>				        
+                                      <a href="<?php  bloginfo('url'); ?>/?paged=<?php echo $page_no; ?>" class="jscroll-next jscroll-next-parent"><img src="<?php bloginfo('template_directory'); ?>/images/ajax-loader.gif" alt="Load More"></a>				        
                                   <?php } else if ($max == $paged ) { $page_no = $paged; ?>
-                                      <a href="<?php  bloginfo('url'); ?>/?paged=<?php echo $page_no; ?>" class="jscroll-next next jscroll-next-parent" onclick="return false"><img src="<?php bloginfo('template_directory'); ?>/images/load-more.png" alt="Load More"></a>				        
+                                      <a href="<?php  bloginfo('url'); ?>/?paged=<?php echo $page_no; ?>" class="jscroll-next next jscroll-next-parent" onclick="return false"><img src="<?php bloginfo('template_directory'); ?>/images/ajax-loader.gif" alt="Load More"></a>				        
                                   <?php } ?>
                               </div><!--load-more ends here-->
 					</div>	
@@ -314,9 +373,7 @@ get_header();
                
 				</div>
 					<!-- SIDEBAR GOES HERE -->
-					<?php
-						get_sidebar();
-					?>					
+								
 					<!-- SIDEBAR END HERE -->
 				<div class="clear"></div>
 <script>
@@ -362,3 +419,32 @@ jQuery(document).ready(function(){
 <?php
 	get_footer();
 ?>
+
+<script>
+
+	jQuery(function($) {
+	$( document ).ready(function() {
+	
+	
+	$(".review_link").click(function(){
+		$("html, body").animate({ scrollTop: "2350px" });
+					
+});	
+									
+	$('#icon').click(function() {
+		$( '.box_search input' ).css("border", "3px solid rgb(255, 108, 108)");
+		$("html, body").animate({ scrollTop: "0px" });
+		$( '.box_search input' ).focus();
+		$('.ava_search').show();
+});
+
+	$('#iconSecond').click(function() {
+		$('#addHelp').show();
+		$("html, body").animate({ scrollTop: "0px" });
+
+});
+
+
+						});
+						});
+</script>						

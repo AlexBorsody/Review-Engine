@@ -108,9 +108,7 @@ $order = get_option( 'comment_order' );
                      <?php comments_template(); ?> 
                 </div>
 					 
-					<div class="col_left">
-							<?php get_sidebar();?>
-					</div>
+				
             </div>
         </div>
     </div>

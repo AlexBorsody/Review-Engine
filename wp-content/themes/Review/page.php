@@ -8,9 +8,9 @@ $order = get_option( 'comment_order' );
 <div id="container">
     	<div class="container_res">
         	<div class="container_main">
-            	<div class="col_left">
-                    <?php get_sidebar();?>
-                </div>
+            	<!--<div class="col_left">
+                    <?php //get_sidebar();?>
+                </div>-->
                 
                 <div class="col_right">
                 	<div class="col">

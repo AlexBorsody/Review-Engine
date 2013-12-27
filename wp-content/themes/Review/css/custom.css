@@ -320,7 +320,7 @@ search-box {
  * auto complete search
  */
 #suggest{
-	background: #B2DE1A;
+	background: #92A5E2;
 	position: absolute;
 	top: 55px;
 	left: 0px;
@@ -936,13 +936,14 @@ ul.product-sorting li.selected-sorting > a, .sidebar-widget li.current-cat > a
 .sorting-wrapper
 {
 	float: right;
-	background-color: #9FE038;
+	background-color: #34496F;
 	padding: 3px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
 	width: 208px;
 	height: 32px;
+	box-shadow: 1px 1px 1px white;
 }
 
 .sorting
@@ -1318,14 +1319,14 @@ ul.product-sorting li.selected-sorting > a, .sidebar-widget li.current-cat > a
 	margin: 20px 0;
 }
 .section-title h1{
-	color: #57839E !important;
-	font-size: 30px;
+	color: #000000 !important;
+	font-size: 55px !important;
 	font-weight: normal;
 	margin: 0;
 	padding: 7px 0;
 	line-height: 38px;
 	margin-left: 23px;
-	text-shadow: 0px 1px 0px rgba(255,255,255,.8);
+	text-shadow: 1px 2px 1px rgba(255, 255, 255, 0.8);
 	border-bottom: none !important;
 }
 
