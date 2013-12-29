@@ -261,6 +261,7 @@ else
 
 	$args = array( 'post_type' => 'product' ,
 						'posts_per_page' => 1,
+						'orderby' => 'meta_value_num' ,
 						'paged' => $paged );	
 	
 
