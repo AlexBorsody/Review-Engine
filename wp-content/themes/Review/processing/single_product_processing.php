@@ -233,7 +233,7 @@ if (!empty($_POST['submit_review'])){
 		setMessage($message, 'error');
 	}
 	else{
-		$message = __('You have submit a review successfully', 're') . $back_link;
+		$message = __('You have succesffuly submit an company, it will go live upon approval, meanwhile you can write your review, this page will be visible to only you until it gets approved.', 're') . $back_link;
 		setMessage($message);
 	}
 }

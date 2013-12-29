@@ -33,7 +33,7 @@ if ($review_count == 0){?>
 			</p>
 		</div>
 	</div>
-<?php }
+<?php } 
 
 $total_page = $wp_query->max_num_comment_pages ;
 if ( $total_page > 1 )

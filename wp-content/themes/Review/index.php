@@ -109,7 +109,7 @@ else
 						<div class="section-title" style="">
 								<?php if ( !empty( $sort_lists) )  {?>
 									 <div class="sort-area" style="float: right">
-										  <span class="label"><?php _e('View products by', 're') ?>:</span>
+										  <span class="label"><?php _e('View agencies by', 're') ?>:</span>
 										  <div class="sorting-wrapper">
 												 <div class="sorting">
 														<form id="sorting_form" action="<?php bloginfo('wpurl') ?>" method='GET'>
@@ -228,12 +228,68 @@ else
 			?>       
 			<div class="clear"></div>
 				 <?php
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+ 
+
+				 
+				
+				 
                          global $wp_query, $wpdb; 
                          $max = $wp_query->max_num_pages;
                          $paged = ( isset($_GET['paged']) ) ? $_GET['paged'] : 1;
-                         
+                         function query_ajax_products($paged){
+	//add_filter('posts_join' , 'filter_join_top_product');
+	//add_filter('posts_groupby' , 'filter_groupby_top_product');
+
+	$args = array( 'post_type' => 'product' ,
+						'posts_per_page' => 1,
+						'paged' => $paged );	
+	
+
+	$queries = query_posts( $args );
+	
+
+		$result = array();
+		$result = array();
+		
+			foreach( $queries as $product ){
+			
+					$result[] = $product;
+							
+			}
+		
+		$queries = $result;
+	
+	
+	//remove_filter('posts_join' , 'filter_join_top_product');
+	//add_filter('posts_groupby' , 'filter_groupby_top_product');
+	//echo '<pre>';
+	//print_r($queries);
+	//echo '</pre>';
+	return $queries;
+}
+ 
+				 
  		
-					$top_products = query_top_products($paged);
+					$top_products = query_ajax_products($paged);
 					if ( !empty( $top_products ) ) { ?>
 					<div class="section-title">
 						<h1 class="blue2"><?php _e('All agencies','re'); ?></h1>
@@ -393,7 +449,8 @@ jQuery(function($) {
          padding: 20,
          nextSelector: 'a.jscroll-next:last',
          contentSelector: '.infinite-scroll',
-         autoTrigger: true
+         autoTrigger: true,
+
      });
 });
 </script>

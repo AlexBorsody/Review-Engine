@@ -51,7 +51,7 @@ $open_comment = comments_open();
 								</div>
 											
 								<div class="title_right" style="float:right;display:none">
-									<p class="rate" style="color:#9facac;"><?php _e('Users Rating','re'); ?>:</p>
+									<p class="rate" style="color:#9facac;"><?php _e('Rating','re'); ?>:</p>
 									<div class="vote_star">
 										<div class="star">
 											<?php
@@ -242,7 +242,7 @@ $open_comment = comments_open();
 						<div class="tab_link">
 							<ul>
 								<li id="tab_review" class="tab-item select"><a href="#tc_review"> <?php _e('Reviews','re'); ?> </a></li>
-								<li id="tab_spec" class="tab-item"><a href="#tc_spec"><?php _e('Info','re'); ?></a></li>
+								<!--<li id="tab_spec" class="tab-item"><a href="#tc_spec"><?php// _e('Info','re'); ?></a></li>-->
 										
 								<?php if ( get_option(SETTING_ENABLE_ARTICLE) ) {?>
 								<li id="tab_articles" class="tab-item"><a href="#tc_article"><?php _e('Articles','re'); ?></a></li>

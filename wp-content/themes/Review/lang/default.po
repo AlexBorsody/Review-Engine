@@ -75,7 +75,7 @@ msgid "'s community profile"
 msgstr ""
 
 #: ../author.php:99
-msgid "'s latest product reviews"
+msgid "'s latest agency reviews"
 msgstr ""
 
 #: ../author.php:151
@@ -386,7 +386,7 @@ msgid "%s's website"
 msgstr ""
 
 #: ../single-product.php:54
-msgid "Users Rating"
+msgid "Rating"
 msgstr ""
 
 #: ../single-product.php:66
@@ -3120,7 +3120,7 @@ msgid "Sorry, cant not add this product in top."
 msgstr ""
 
 #: ../admin_processing/admin_top_product_processing.php:21
-msgid "ERROR: Please choose product."
+msgid "ERROR: Please choose an agency."
 msgstr ""
 
 #: ../admin_processing/admin_top_product_processing.php:29
@@ -3145,7 +3145,7 @@ msgstr ""
 
 #: ../ajax/ajax_admin_search_product.php:35
 #: ../ajax/ajax_admin_top_product.php:59
-msgid "List of Product"
+msgid "List of Agencies"
 msgstr ""
 
 #: ../ajax/ajax_admin_search_product.php:66
@@ -3348,7 +3348,7 @@ msgid "Reply"
 msgstr ""
 
 #: ../functions/links.php:6
-msgid "Latest Products"
+msgid "Latest Agencies"
 msgstr "Latest Movies"
 
 #: ../functions/links.php:10

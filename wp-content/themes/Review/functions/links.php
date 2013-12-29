@@ -3,7 +3,7 @@ global $custom_pages, $sorting_pages;
 $custom_pages = array('register','login','logout','edit_profile','forgot_password','login_facebook','message','product_suggest','compare','articles');
 $sorting_pages = array(
 							'recent-products' => array(
-														'name' => __('Latest Products', 're'),
+														'name' => __('Latest Agencies', 're'),
 														'id' =>'recent-products'
 													),
 							'top-price' => array(
