@@ -130,7 +130,7 @@ $main_category = get_categories($args);
 								<?php echo $helper->image('li_arrow1.gif', 'arrow')?>
 								</li>
 						<?php if($enable_fb_login) {?>
-								<li id="fb_login"><?php echo $helper->link($helper->image('icon_facebook.gif', 'fb_login'), ''); ?></li>
+								<li id="fb_login"><?php echo $helper->link($helper->image('icon_facebook.gif', 'fb_login'), ''); ?> Login with Facebook</li>
 						<?php }?>
 								<li><?php echo $helper->link('<strong>'.__('Register','re').'</strong>', tgt_get_permalink('register') )?>
 								<?php echo $helper->image('li_arrow1.gif', 'arrow')?></li>

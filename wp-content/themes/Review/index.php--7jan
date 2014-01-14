@@ -155,12 +155,11 @@ else
 														  <div class="star" style="">
 																<?php
 																//$rating = get_post_meta($post_id, 'tgt_rating', true);
-																//   $rating = get_post_meta($post_id, get_showing_rating(), true);
-                                                                                //	tgt_display_rating( $rating, 'recent_rating_'.$post_id);
-                                                                                //   tgt_display_rating( $rate, 'reviewer_rating_'.$comment->comment_ID.'_'.$rate_ID, true, 'star-disabled' );
-                                                                                //   tgt_display_rating( $rating, 'recent_rating_'.$post_id);
-                                                                                $rating = get_post_meta ( $post->ID , get_showing_rating(),true);
-                                                                                tgt_display_rating( $rating, 'top_rating_'.$post->ID, true, 'star-disabled' );
+																$rating = get_post_meta($post_id, get_showing_rating(), true);
+															//	tgt_display_rating( $rating, 'recent_rating_'.$post_id);
+																											tgt_display_rating( $rate, 'reviewer_rating_'.$comment->comment_ID.'_'.$rate_ID, true, 'star-disabled' );
+
+																//tgt_display_rating( $rating, 'recent_rating_'.$post_id);
 																?>
 														  </div>	
 													 </div>

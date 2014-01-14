@@ -201,10 +201,11 @@ box-shadow:  1px 1px 1px 0px rgb(170, 170, 170);
 .navi_list ul li {
     color: #BFCAD0;
     display: inline;
-    font: 14px arial;
+    font: 12px arial;
     margin: 0;
     padding: 0 5px;
     text-align: center;
+    font-family: Arial, Tahoma, sans-serif;
 }
 .navi_list ul li a {
     color: #BFCAD0;
@@ -869,10 +870,11 @@ background: #C21C1C;
 .avatar p a {
     background: url("images/li.png") no-repeat scroll right center transparent;
     color: #1793D3;
-    font: 12px arial;
+    font: 14px arial;
     margin: 0;
     padding: 0 15px 0 0;
-    text-decoration: underline;
+    text-decoration: none;
+    font-weight: bold;
 }
 .avatar p a:hover {
     text-decoration: none;
@@ -978,7 +980,7 @@ background: #C21C1C;
     text-decoration: none;
 }
 .title_left h1 a:hover {
-    text-decoration: underline;
+    text-decoration: blink;
 }
 .title_left p {
     color: #9AA4A4;

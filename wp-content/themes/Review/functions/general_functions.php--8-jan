@@ -1081,7 +1081,7 @@ function show_editor_reviews($comment, $args, $depth){
 	$author_avatar = get_user_meta($comment->user_id, 'avatar', true);
 	?>
 	
-	<li style="display: none">
+	<li>
 	<div class="content_review2" >
 		<?php if($comment->comment_approved == '0') {?>
 			<p style="font: 12px/18px Arial, san-serif; padding-left: 20px;"><?php _e('Your comment is awaiting moderation.','re') ?></p>
@@ -1222,9 +1222,8 @@ function show_user_reviews($comment, $args, $depth){
 	$ratings = get_option('tgt_rating');
 	$author_avatar = get_user_meta($comment->user_id, 'avatar', true);
 	?>
-	<li style="">
-	<!--<div class="content_review">-->
-	<div class="content_review2">                        
+	<li style="display:none">
+	<div class="content_review" >                        
 		<div class="revieww">
 			<?php if($comment->comment_approved == '0') {?>
 				<p style="font: 12px/18px Arial, san-serif; padding-left: 20px;"><?php _e('Your comment is awaiting moderation.','re') ?></p>
