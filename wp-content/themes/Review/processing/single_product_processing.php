@@ -49,13 +49,13 @@ $has_reviewed = has_reviewed( $user_ID, $post->ID );
 $error_title_empty = __('Title can not be empty','re'); 
 $error_title_short = __('Title is too short','re');
 
-$error_con_empty = __('Please tell us what make you like about this product','re'); 
-$error_con_short = __('Your reason is too short','re');
+$error_con_empty = __('What was the best part of working with this company','re'); 
+$error_con_short = __('Please write a longer response','re');
 
-$error_pro_empty = __('Please tell us what make you dislike about this product','re');
-$error_pro_short = __('Your reason is too short','re');
+$error_pro_empty = __('What were some of the challenges you faced while working with this agency','re');
+$error_pro_short = __('Please write a longer response','re');
 
-$error_not_rating = __('You have forgotten rating for this product ','re');
+$error_not_rating = __('Please rate this agency ','re');
 
 $error_username_empty = __('Your name can not be empty','re');
 $error_useremail_empty = __('Your email can not be empty','re');
@@ -79,7 +79,7 @@ $allowed_tags = '<p><a><table><tr><td><th><ul><ol><li><dt><dl><br><img><b><i><u>
 if (!empty($_POST['submit_review'])){
 	try{
 		if ($has_reviewed) 
-			throw new Exception(__('You have reviewed this product already ','re'));
+			throw new Exception(__('You have reviewed this agency already ','re'));
 				
 		$review['title'] 	= empty($_POST['title']) 		? '' : strip_tags( $_POST['title'] );
 		$review['pro'] 		= empty($_POST['pro']) 			? '' : strip_tags(  $_POST['pro'] );
@@ -94,12 +94,12 @@ if (!empty($_POST['submit_review'])){
 		if (!empty ( $post->ID) )
 			$review['id'] = $post->ID;
 		else {
-			throw new Exception(__('There is error occurred, please try again later','re'));
+			throw new Exception(__('An error occurred, please try again later','re'));
 		}
 		
 		//set author
 		if (empty ($current_user))
-			throw new Exception(__('There is error occurred, please try again later','re'));
+			throw new Exception(__('An error occurred, please try again later','re'));
 		
 		$review['author'] = $current_user;
 		
@@ -146,9 +146,9 @@ if (!empty($_POST['submit_review'])){
 		
 		$limit_validate = array(
                         'title'         => __('Title is too long','re'),
-                        'pro'           => __('"The Good" of product is too long','re'),
-                        'con'           => __('"The Bad" of product is too long','re'),
-                        'bottomline'	=> __('"Bottom line" of product is too long','re'),
+                        'pro'           => __('"The Good" of agency is too long','re'),
+                        'con'           => __('"The Bad" of agency is too long','re'),
+                        'bottomline'	=> __('"Bottom line" of agency is too long','re'),
                         'review'        => __('Review content of prroduct is too long','re')
                     );
 		foreach( $limit_validate as $key => $msg )
@@ -227,7 +227,7 @@ if (!empty($_POST['submit_review'])){
 	 */
 	
 	$link = $helper->link('here', get_permalink($post->ID) );
-	$back_link = '<br />' . __('click ','re') . $link . __(" to go back product's page",'re');
+	$back_link = '<br />' . __('click ','re') . $link . __(" to go back agency's page",'re');
 	if (!empty($error)){
 		$message = $error . $back_link;
 		setMessage($message, 'error');
@@ -238,7 +238,7 @@ if (!empty($_POST['submit_review'])){
 	}
 }
 
-// Submit comment for product
+// Submit comment for agency
 if (!empty($_POST['submit_comment'])){
 	try{
 		global $current_user;

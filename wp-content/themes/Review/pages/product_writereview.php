@@ -119,7 +119,7 @@ if ( $user_ID > 0 || $submit_nologin)
 							  <p style="margin: 20px 0 0px 5px">
 									<label for=""><strong> <?php _e('The Good','re') ?>  </strong><span class="red">*</span></label>
 									<br/>
-									<span class="sub-title"> <?php  _e('What make you like about this product? ','re'); ?>
+									<span class="sub-title"> <?php  _e('What was the best part of working with this company? ','re'); ?>
 									<br/>
 									<?php _e(' Characters left: ','re')?>
 									<span class="counter" id="pro_count"><?php echo $limitation['pro'] ?></span>
@@ -132,7 +132,7 @@ if ( $user_ID > 0 || $submit_nologin)
 							  <p style="margin: 20px 0 0px 5px">
 									<label for=""><strong> <?php _e('The Bad ','re') ?>  </strong><span class="red">*</span></label>
 									<br/>
-									<span class="sub-title"> <?php  _e('What make you do not like about this product? ','re'); ?>
+									<span class="sub-title"> <?php  _e('What were some of the challenges you faced while working with this agency? ','re'); ?>
 									<br/>
 									<?php _e(' Characters left: ','re')?>
 									<span class="counter" id="con_count"><?php echo $limitation['con'] ?></span>
@@ -145,7 +145,7 @@ if ( $user_ID > 0 || $submit_nologin)
 								<p style="margin: 20px 0 0px 5px">
 									<label for=""><strong> <?php _e('Bottom line','re') ?>  </strong></label>
 									<br/>
-									<span class="sub-title"> <?php _e('Explain in detail your opinion about this product. This may be your comment or your experience on using product. This field is optional. ','re'); ?>
+									<span class="sub-title"> <?php _e('Explain your overall experience in working with this company and your recommendation on others who may want to work with them.','re'); ?>
 									<br/>
 									<?php _e(' Characters left: ','re')?>
 									<span class="counter" id="bottomline_count"><?php echo $limitation['bottomline'] ?></span>
