@@ -67,7 +67,7 @@ if ( $user_ID > 0 || $submit_nologin)
 			 <div class="view" style="position:relative;"> 
 				  <div class="box_reply" style="margin-top:0; width: 785px">
 						<p class="sum"><strong style="color:#0184E7; font-size:16px;"> <?php  _e('Write review','re') ?> </strong></p><br/>
-                                                <p class="sum"> <?php _e('Please remember to rate for this product','re'); ?> </p>
+                                                <p class="sum"> <?php _e('Please remember to rate this agency','re'); ?> </p>
                                                 <div id="review_error" class="red">
 						</div>
                                                 <?php if($user_ID < 1) { ?>
