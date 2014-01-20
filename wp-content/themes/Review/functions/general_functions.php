@@ -1081,14 +1081,14 @@ function show_editor_reviews($comment, $args, $depth){
 	$author_avatar = get_user_meta($comment->user_id, 'avatar', true);
 	?>
 	
-	<li style="display: none">
+	<li style="">
 	<div class="content_review2" >
 		<?php if($comment->comment_approved == '0') {?>
 			<p style="font: 12px/18px Arial, san-serif; padding-left: 20px;"><?php _e('Your comment is awaiting moderation.','re') ?></p>
 		<?php } ?>
-		<!--<div class="revieww">
-			<h2 class="reviewer-role"> <?php _e("Editor's review:","re") ?> </h2>
-		</div>-->
+		<div class="revieww">
+			<h2 class="reviewer-role"> <?php _e("Review:","re") ?> </h2>
+		</div>
                         
 		<div class="revieww" style="padding-bottom: 20px;">
 				 <div class="review_left">
@@ -1229,6 +1229,9 @@ function show_user_reviews($comment, $args, $depth){
 			<?php if($comment->comment_approved == '0') {?>
 				<p style="font: 12px/18px Arial, san-serif; padding-left: 20px;"><?php _e('Your comment is awaiting moderation.','re') ?></p>
 			<?php } ?>
+		     <div class="revieww">
+			     <h2 class="reviewer-role"> <?php _e("Agency review:","re") ?> </h2>
+		     </div>
 			<div class="revieww" style="padding-bottom: 20px;">
 				<div class="review_left">
 				  <div class="overall">

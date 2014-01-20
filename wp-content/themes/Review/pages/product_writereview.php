@@ -145,7 +145,7 @@ if ( $user_ID > 0 || $submit_nologin)
 								<p style="margin: 20px 0 0px 5px">
 									<label for=""><strong> <?php _e('Bottom line','re') ?>  </strong></label>
 									<br/>
-									<span class="sub-title"> <?php _e('Explain your overall experience in working with this company and your recommendation on others who may want to work with them.','re'); ?>
+									<span class="sub-title"> <?php _e('Explain your overall experience in working with this company and your recommendation for others who may want to work with them.','re'); ?>
 									<br/>
 									<?php _e(' Characters left: ','re')?>
 									<span class="counter" id="bottomline_count"><?php echo $limitation['bottomline'] ?></span>

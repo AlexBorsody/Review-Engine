@@ -96,7 +96,7 @@ $user = get_userdata( $wp_query->query_vars['author'] );
                              	<table cellspacing="0" width="100%">
                                 	<tbody>
                                     	<tr>
-                                        	<td colspan="3" style="background-color:#C4D2D2; text-align:center; font-weight:bold; color:#3D4042; border-bottom:1px #C5CCCC solid;"><?php echo $user->display_name; ?><?php _e("'s latest product reviews",'re'); ?></td>
+                                        	<td colspan="3" style="background-color:#C4D2D2; text-align:center; font-weight:bold; color:#3D4042; border-bottom:1px #C5CCCC solid;"><?php echo $user->display_name; ?><?php _e("'s latest reviews",'re'); ?></td>
                                         </tr>
                                         <?php									
 					if ( have_posts() )

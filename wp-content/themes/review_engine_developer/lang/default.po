@@ -1,0 +1,4504 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: re\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-26 15:25+0700\n"
+"PO-Revision-Date: 2012-03-26 15:27+0700\n"
+"Last-Translator: TOan <tmblue.register@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:25
+msgid "Page"
+msgstr ""
+
+#: ../404.php:25
+msgid "not found!"
+msgstr ""
+
+#: ../404.php:26
+msgid "Sorry! This page not found."
+msgstr ""
+
+#: ../404.php:26
+msgid "Return to the"
+msgstr ""
+
+#: ../404.php:26
+msgid "Home page"
+msgstr ""
+
+#: ../author.php:22
+msgid "Profile Informations"
+msgstr ""
+
+#: ../author.php:26
+msgid "User Name"
+msgstr ""
+
+#: ../author.php:31
+msgid "First Name"
+msgstr ""
+
+#: ../author.php:36
+msgid "Last Name"
+msgstr ""
+
+#: ../author.php:41
+msgid "Email"
+msgstr ""
+
+#: ../author.php:50
+msgid "Activity Summary"
+msgstr ""
+
+#: ../author.php:55
+msgid "Reviews Written"
+msgstr ""
+
+#: ../author.php:66
+msgid "Likes"
+msgstr ""
+
+#: ../author.php:78
+msgid "Dislikes"
+msgstr ""
+
+#: ../author.php:91
+msgid "'s community profile"
+msgstr ""
+
+#: ../author.php:99
+msgid "'s latest product reviews"
+msgstr ""
+
+#: ../author.php:151
+#: ../category.php:307
+#: ../index.php:121
+#: ../index.php:257
+#: ../search.php:233
+#: ../tag.php:103
+msgid "more"
+msgstr ""
+
+#: ../author.php:153
+msgid "User's rating"
+msgstr ""
+
+#: ../author.php:169
+msgid " has not write any review yet"
+msgstr ""
+
+#: ../author.php:186
+#: ../category.php:335
+#: ../search.php:258
+#: ../tag.php:128
+msgid "Pages"
+msgstr ""
+
+#: ../category.php:87
+msgid "Find a product:"
+msgstr ""
+
+#: ../category.php:166
+msgid "Go"
+msgstr ""
+
+#: ../category.php:202
+msgid "Feed this category"
+msgstr ""
+
+#: ../category.php:207
+msgid "Compare Items"
+msgstr ""
+
+#: ../category.php:211
+msgid "You checked"
+msgstr ""
+
+#: ../category.php:211
+msgid "item(s)"
+msgstr ""
+
+#: ../category.php:211
+msgid " to be compared"
+msgstr ""
+
+#: ../category.php:218
+#: ../index.php:167
+msgid "View products by"
+msgstr ""
+
+#: ../category.php:291
+msgid "No Tags"
+msgstr ""
+
+#: ../category.php:300
+#: ../search.php:223
+msgid "compare this"
+msgstr ""
+
+#: ../category.php:314
+#: ../index.php:130
+#: ../index.php:266
+#: ../search.php:241
+#: ../single-product.php:184
+#: ../tag.php:111
+msgid "Visit Website"
+msgstr ""
+
+#: ../category.php:352
+msgid "There is no available product"
+msgstr ""
+
+#: ../category.php:354
+msgid "This category has no product yet"
+msgstr ""
+
+#: ../category.php:356
+#: ../search.php:275
+msgid "But you can suggest us to update products at "
+msgstr ""
+
+#: ../category.php:401
+#: ../search.php:314
+#: ../search.php:343
+msgid "Please select the items you want to compare!"
+msgstr ""
+
+#: ../category.php:403
+#: ../search.php:316
+#: ../search.php:345
+msgid "Please select two or more items you want to compare!"
+msgstr ""
+
+#: ../comments.php:3
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:98
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:101
+msgid "There is no comment."
+msgstr ""
+
+#: ../comments.php:145
+msgid "Your browser and memory has limited this function."
+msgstr ""
+
+#: ../comments.php:158
+msgid "Ohs, Something has been working wrong. We will check this for you."
+msgstr ""
+
+#: ../comments.php:206
+#: ../comments.php:234
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:207
+#: ../comments.php:235
+msgid "Please insert your comment."
+msgstr ""
+
+#: ../comments.php:209
+#: ../comments.php:237
+msgid "Your comment is too short. Your comment is at least 10 characters."
+msgstr ""
+
+#: ../comments.php:211
+#: ../comments.php:239
+msgid "Your comment is too long. Your comment is maximum 1000 characters."
+msgstr ""
+
+#: ../comments.php:218
+msgid "Your email is incorrect. Ex: nickname@wordpress.com"
+msgstr ""
+
+#: ../comments.php:224
+msgid "Author name must be not null."
+msgstr ""
+
+#: ../comments.php:225
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:226
+msgid "Please insert your name."
+msgstr ""
+
+#: ../comments.php:229
+msgid "Your name is too short. Your name is at least 3 characters."
+msgstr ""
+
+#: ../comments.php:231
+msgid "Your name is too long. Your name is maximum 100 characters."
+msgstr ""
+
+#: ../feed-rss2.php:66
+msgid "Rating point"
+msgstr ""
+
+#: ../feed-rss2.php:66
+msgid "Not rating yet"
+msgstr ""
+
+#: ../feed-rss2.php:67
+#: ../single-product.php:209
+#: ../single-product.php:236
+#: ../admin/admin.php:149
+msgid "Reviews"
+msgstr ""
+
+#: ../feed-rss2.php:67
+msgid "0 Review"
+msgstr ""
+
+#: ../feed-rss2.php:67
+msgid "1 Review"
+msgstr ""
+
+#: ../feed-rss2.php:67
+msgid "% Reviews"
+msgstr ""
+
+#: ../footer.php:18
+msgid "Copyright"
+msgstr ""
+
+#: ../footer.php:18
+msgid "WordPress Review Theme"
+msgstr ""
+
+#: ../footer.php:18
+msgid " All rights reserved."
+msgstr ""
+
+#: ../header.php:73
+#: ../single-product.php:220
+msgid "Review"
+msgstr ""
+
+#: ../header.php:79
+#: ../single-product.php:240
+msgid "Articles"
+msgstr ""
+
+#: ../header.php:133
+msgid "Login"
+msgstr ""
+
+#: ../header.php:139
+msgid "Register"
+msgstr ""
+
+#: ../header.php:141
+#: ../header.php:152
+msgid "Suggest a Product"
+msgstr ""
+
+#: ../header.php:149
+msgid "Hi, "
+msgstr ""
+
+#: ../header.php:150
+msgid "Edit Profile"
+msgstr ""
+
+#: ../header.php:155
+msgid "Logout"
+msgstr ""
+
+#: ../header.php:177
+#: ../header.php:182
+msgid "Current Logo"
+msgstr ""
+
+#: ../index.php:25
+msgid "Top products"
+msgstr ""
+
+#: ../index.php:109
+#: ../index.php:246
+#: ../search.php:211
+#: ../tag.php:93
+msgid "No tags"
+msgstr ""
+
+#: ../index.php:159
+msgid "recent-products"
+msgstr ""
+
+#: ../index.php:282
+msgid "No Result Found Here !"
+msgstr ""
+
+#: ../search.php:273
+msgid "Sorry, we can't find product you want"
+msgstr ""
+
+#: ../search.php:275
+msgid "here"
+msgstr ""
+
+#: ../sidebar.php:27
+msgid "Product Sorting"
+msgstr ""
+
+#: ../single-article.php:24
+msgid "no reply"
+msgstr ""
+
+#: ../single-article.php:24
+msgid "one reply"
+msgstr ""
+
+#: ../single-article.php:24
+msgid "% reply"
+msgstr ""
+
+#: ../single-article.php:56
+msgid "This product has no tags"
+msgstr ""
+
+#: ../single-article.php:96
+msgid "Previous Article"
+msgstr ""
+
+#: ../single-article.php:102
+msgid "Next Article"
+msgstr ""
+
+#: ../single-product.php:43
+msgid "Edit"
+msgstr ""
+
+#: ../single-product.php:49
+#, php-format
+msgid "%s's website"
+msgstr ""
+
+#: ../single-product.php:54
+msgid "Users Rating"
+msgstr ""
+
+#: ../single-product.php:66
+msgid "Editor's Rating"
+msgstr ""
+
+#: ../single-product.php:138
+msgid "Next"
+msgstr ""
+
+#: ../single-product.php:139
+msgid "Prev"
+msgstr ""
+
+#: ../single-product.php:167
+msgid "More info"
+msgstr ""
+
+#: ../single-product.php:178
+msgid "Hide description"
+msgstr ""
+
+#: ../single-product.php:186
+msgid "OR"
+msgstr ""
+
+#: ../single-product.php:186
+msgid "Review This!"
+msgstr ""
+
+#: ../single-product.php:193
+msgid "Price"
+msgstr ""
+
+#: ../single-product.php:197
+msgid "Date"
+msgstr ""
+
+#: ../single-product.php:201
+msgid "Tags"
+msgstr ""
+
+#: ../single-product.php:205
+msgid "Views"
+msgstr ""
+
+#: ../single-product.php:218
+msgid "This product hasn't been reviewed yet"
+msgstr ""
+
+#: ../single-product.php:222
+#, php-format
+msgid " %s Reviews"
+msgstr ""
+
+#: ../single-product.php:237
+msgid "Specifications"
+msgstr ""
+
+#: ../single-product.php:243
+msgid "Write review"
+msgstr ""
+
+#: ../single-product.php:247
+msgid "Comments"
+msgstr ""
+
+#: ../tag.php:34
+msgid "Tags :"
+msgstr ""
+
+#: ../admin/admin.php:121
+msgid "Dashboard"
+msgstr ""
+
+#: ../admin/admin.php:124
+msgid "Display Settings"
+msgstr ""
+
+#: ../admin/admin.php:127
+msgid "General Settings"
+msgstr ""
+
+#: ../admin/admin.php:130
+msgid "Review Settings"
+msgstr ""
+
+#: ../admin/admin.php:133
+msgid "Mailing Settings"
+msgstr ""
+
+#: ../admin/admin.php:135
+msgid "SEO Settings"
+msgstr ""
+
+#: ../admin/admin.php:137
+msgid "Filter Magagement"
+msgstr ""
+
+#: ../admin/admin.php:140
+msgid "Specification Magagement"
+msgstr ""
+
+#: ../admin/admin.php:143
+msgid "Tab Management"
+msgstr ""
+
+#: ../admin/admin.php:146
+msgid "Rating Magagement"
+msgstr ""
+
+#: ../admin/admin.php:149
+msgid "List Reviews"
+msgstr ""
+
+#: ../admin/admin.php:152
+msgid "Product Suggestions"
+msgstr ""
+
+#: ../admin/admin.php:152
+msgid "List Suggestions"
+msgstr ""
+
+#: ../admin/admin.php:154
+msgid "ReviewEngine Update"
+msgstr ""
+
+#: ../admin/admin.php:156
+msgid "Top Products"
+msgstr ""
+
+#: ../admin/admin.php:159
+msgid "Import/Export product"
+msgstr ""
+
+#: ../admin/admin_add_article.php:16
+#: ../admin/admin_add_article.php:26
+msgid "Edit article"
+msgstr ""
+
+#: ../admin/admin_add_article.php:33
+msgid "Create article"
+msgstr ""
+
+#: ../admin/admin_add_article.php:41
+msgid " View article"
+msgstr ""
+
+#: ../admin/admin_add_article.php:65
+#: ../admin/admin_add_article.php:112
+#: ../admin/admin_add_article.php:116
+#: ../admin/admin_add_product.php:47
+#: ../admin/admin_add_product.php:75
+#: ../admin/admin_add_product.php:94
+#: ../admin/admin_list_articles.php:47
+#: ../admin/admin_list_products.php:46
+msgid "Publish"
+msgstr ""
+
+#: ../admin/admin_add_article.php:76
+msgid "Save Draft"
+msgstr ""
+
+#: ../admin/admin_add_article.php:87
+#: ../admin/admin_add_product.php:59
+msgid "Preview"
+msgstr ""
+
+#: ../admin/admin_add_article.php:95
+#: ../admin/admin_add_product.php:67
+msgid "Status:"
+msgstr ""
+
+#: ../admin/admin_add_article.php:96
+#: ../admin/admin_add_product.php:74
+#: ../admin/admin_list_articles.php:28
+#: ../admin/admin_list_products.php:27
+msgid "Draft"
+msgstr ""
+
+#: ../admin/admin_add_article.php:103
+#: ../admin/admin_add_product.php:88
+#: ../admin/admin_list_reviews.php:142
+msgid "Move to Trash"
+msgstr ""
+
+#: ../admin/admin_add_article.php:114
+#: ../admin/admin_add_product.php:95
+msgid "Update"
+msgstr ""
+
+#: ../admin/admin_add_article.php:130
+#: ../admin/admin_add_product.php:132
+msgid "Category"
+msgstr ""
+
+#: ../admin/admin_add_article.php:134
+msgid " Please select a category...  "
+msgstr ""
+
+#: ../admin/admin_add_article.php:186
+#: ../admin/admin_add_product.php:232
+msgid "Enter title here"
+msgstr ""
+
+#: ../admin/admin_add_article.php:223
+#: ../admin/admin_dashboard.php:119
+#: ../admin/admin_dashboard.php:360
+#: ../admin/admin_list_articles.php:114
+#: ../admin/admin_list_articles.php:126
+#: ../admin/admin_list_reviews.php:184
+msgid "Product"
+msgstr ""
+
+#: ../admin/admin_add_article.php:227
+msgid "Title Search"
+msgstr ""
+
+#: ../admin/admin_add_article.php:229
+#: ../admin/admin_list_products.php:32
+#: ../admin/admin_list_products.php:34
+#: ../admin/admin_list_reviews.php:30
+#: ../admin/admin_list_reviews.php:33
+msgid "Search Products"
+msgstr ""
+
+#: ../admin/admin_add_article.php:254
+msgid "Please select a category"
+msgstr ""
+
+#: ../admin/admin_add_article.php:283
+msgid "Error: Title article can't be empty"
+msgstr ""
+
+#: ../admin/admin_add_article.php:294
+msgid "Error: Content article can't be empty"
+msgstr ""
+
+#: ../admin/admin_add_article.php:304
+msgid "Error: Please select a category"
+msgstr ""
+
+#: ../admin/admin_add_article.php:421
+#: ../admin/admin_add_article.php:425
+msgid "Not product available"
+msgstr ""
+
+#: ../admin/admin_add_product.php:9
+#: ../admin/admin_display_setting.php:16
+#: ../admin/admin_edit_filter.php:36
+#: ../admin/admin_edit_review.php:12
+#: ../admin/admin_edit_spec.php:37
+#: ../admin/admin_edit_tab.php:25
+#: ../admin/admin_export.php:13
+#: ../admin/admin_filter_manager.php:32
+#: ../admin/admin_general_setting.php:15
+#: ../admin/admin_import.php:33
+#: ../admin/admin_import_spec.php:37
+#: ../admin/admin_list_articles.php:13
+#: ../admin/admin_list_products.php:12
+#: ../admin/admin_list_reviews.php:20
+msgid "Problems? Questions?"
+msgstr ""
+
+#: ../admin/admin_add_product.php:9
+#: ../admin/admin_display_setting.php:16
+#: ../admin/admin_edit_review.php:12
+#: ../admin/admin_export.php:13
+#: ../admin/admin_general_setting.php:15
+#: ../admin/admin_import.php:33
+#: ../admin/admin_import_spec.php:37
+#: ../admin/admin_list_articles.php:13
+#: ../admin/admin_list_products.php:12
+#: ../admin/admin_list_reviews.php:20
+msgid " Contact us at "
+msgstr ""
+
+#: ../admin/admin_add_product.php:21
+msgid "Product updated!"
+msgstr ""
+
+#: ../admin/admin_add_product.php:24
+msgid "View product"
+msgstr ""
+
+#: ../admin/admin_add_product.php:54
+#: ../admin/admin_display_setting.php:244
+#: ../admin/admin_display_setting.php:314
+#: ../admin/admin_edit_filter.php:138
+#: ../admin/admin_edit_filter.php:171
+#: ../admin/admin_edit_review.php:68
+#: ../admin/admin_edit_spec.php:138
+#: ../admin/admin_edit_spec.php:171
+#: ../admin/admin_edit_tab.php:101
+#: ../admin/admin_general_setting.php:75
+#: ../admin/admin_general_setting.php:116
+#: ../admin/admin_general_setting.php:212
+#: ../admin/admin_general_setting.php:265
+#: ../admin/admin_general_setting.php:307
+#: ../admin/admin_general_setting.php:411
+#: ../admin/admin_general_setting.php:462
+msgid "Save"
+msgstr ""
+
+#: ../admin/admin_add_product.php:73
+msgid "Pending Review"
+msgstr ""
+
+#: ../admin/admin_add_product.php:77
+#: ../admin/admin_edit_filter.php:80
+#: ../admin/admin_edit_spec.php:80
+#: ../admin/admin_edit_tab.php:60
+#: ../admin/admin_filter_manager.php:80
+#: ../admin/admin_filter_manager.php:136
+#: ../admin/admin_filter_manager.php:154
+msgid "OK"
+msgstr ""
+
+#: ../admin/admin_add_product.php:78
+#: ../admin/admin_edit_filter.php:81
+#: ../admin/admin_edit_review.php:69
+#: ../admin/admin_edit_spec.php:81
+#: ../admin/admin_edit_tab.php:61
+#: ../admin/admin_filter_manager.php:81
+#: ../admin/admin_filter_manager.php:137
+#: ../admin/admin_filter_manager.php:155
+msgid "Cancel"
+msgstr ""
+
+#: ../admin/admin_add_product.php:121
+msgid "Specify product price. You can freely specify price format like $1000, $1.000 ... "
+msgstr ""
+
+#: ../admin/admin_add_product.php:136
+msgid "Please choose category"
+msgstr ""
+
+#: ../admin/admin_add_product.php:174
+msgid "Separate tags with commas"
+msgstr ""
+
+#: ../admin/admin_add_product.php:189
+#: ../admin/admin_list_articles.php:104
+#: ../admin/admin_list_products.php:103
+msgid "Filter"
+msgstr ""
+
+#: ../admin/admin_add_product.php:278
+msgid "Product Link"
+msgstr ""
+
+#: ../admin/admin_add_product.php:282
+msgid "Link product:"
+msgstr ""
+
+#: ../admin/admin_add_product.php:297
+msgid "Product Images"
+msgstr ""
+
+#: ../admin/admin_add_product.php:301
+msgid "Product images:"
+msgstr ""
+
+#: ../admin/admin_add_product.php:301
+msgid ".jpg file only"
+msgstr ""
+
+#: ../admin/admin_add_product.php:336
+msgid "Specification"
+msgstr ""
+
+#: ../admin/admin_add_product.php:352
+msgid "You must choose category"
+msgstr ""
+
+#: ../admin/admin_add_product.php:353
+msgid "You must enter the title"
+msgstr ""
+
+#: ../admin/admin_add_product.php:354
+msgid "You must enter the description"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:36
+msgid "ReviewEngine Dashboard"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:47
+msgid "ReviewEngine Info"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:60
+msgid "Please update now"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:66
+msgid "Total Users"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:66
+msgid "reviewer(s) and"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:66
+msgid "user(s)"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:69
+msgid "Total Published Products"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:69
+#: ../admin/admin_dashboard.php:72
+msgid "published and"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:69
+#: ../admin/admin_dashboard.php:72
+msgid "pending"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:72
+msgid "Total Published Articles"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:75
+msgid "Total Published Product's Reviews"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:75
+msgid "reviewer's review(s) and"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:75
+msgid "user's review(s)"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:78
+msgid "Total Suggestions"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:81
+msgid "Product Support"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:81
+msgid "Technical"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:93
+msgid "Pending Review(s)"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:94
+#: ../admin/admin_list_articles.php:115
+#: ../admin/admin_list_articles.php:127
+#: ../admin/admin_list_products.php:113
+#: ../admin/admin_list_products.php:124
+#: ../admin/admin_list_reviews.php:46
+#: ../admin/admin_list_reviews.php:160
+msgid "Author"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:95
+#: ../admin/admin_list_reviews.php:161
+msgid "Review Content"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:102
+#: ../admin/admin_dashboard.php:215
+#: ../admin/admin_dashboard.php:285
+#: ../admin/admin_dashboard.php:367
+msgid "See All"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:111
+#: ../admin/admin_list_articles.php:29
+#: ../admin/admin_list_products.php:28
+#: ../admin/admin_list_reviews.php:122
+msgid "Pending"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:123
+#: ../admin/admin_list_reviews.php:188
+msgid "Review date:"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:130
+#: ../admin/admin_list_reviews.php:195
+msgid "Show all"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:133
+#: ../admin/admin_list_reviews.php:198
+msgid "The good"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:140
+#: ../admin/admin_list_reviews.php:205
+msgid "The bad "
+msgstr ""
+
+#: ../admin/admin_dashboard.php:146
+#: ../admin/admin_list_reviews.php:211
+msgid "Bottom line"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:157
+#: ../admin/admin_list_reviews.php:222
+msgid "Hide"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:162
+#: ../admin/admin_list_reviews.php:138
+msgid "Approve"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:179
+msgid "Latest news from dailywp.com community"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:183
+msgid "Your browser does not support iframes."
+msgstr ""
+
+#: ../admin/admin_dashboard.php:199
+msgid "Recent Products"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:200
+msgid "Top Rated Products"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:206
+#: ../admin/admin_dashboard.php:276
+#: ../admin/admin_dashboard.php:358
+#: ../admin/admin_list_articles.php:113
+#: ../admin/admin_list_articles.php:125
+#: ../admin/admin_list_products.php:112
+#: ../admin/admin_list_products.php:123
+#: ../admin/admin_list_reviews.php:45
+msgid "Title"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:207
+#: ../admin/admin_dashboard.php:277
+#: ../admin/admin_dashboard.php:359
+#: ../admin/admin_edit_filter.php:72
+#: ../admin/admin_edit_spec.php:72
+#: ../admin/admin_filter_manager.php:72
+#: ../admin/admin_list_articles.php:116
+#: ../admin/admin_list_articles.php:128
+#: ../admin/admin_list_products.php:114
+#: ../admin/admin_list_products.php:125
+#: ../admin/admin_list_reviews.php:47
+msgid "Categories"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:353
+msgid "Recent Articles"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:397
+msgid "Empty"
+msgstr ""
+
+#: ../admin/admin_dashboard.php:420
+msgid "Latest News"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:38
+msgid "Language"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:44
+msgid "Current Language"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:54
+msgid "Select Language"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:57
+msgid "Select the language which will be shown on theme."
+msgstr ""
+
+#: ../admin/admin_display_setting.php:64
+msgid "Select"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:87
+msgid "Activate"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:88
+#: ../admin/admin_display_setting.php:204
+msgid "Reset to Default"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:104
+msgid "Favicon"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:110
+#: ../admin/admin_display_setting.php:113
+msgid "Current Favicon"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:118
+msgid "Upload Favicon"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:121
+msgid "Should be rename file as favicon.ico"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:125
+msgid "Your favicon file should rename as favicon.ico and the size should be 32x32 pixel"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:134
+#: ../admin/admin_display_setting.php:203
+msgid "Upload"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:161
+msgid "Logo"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:187
+msgid "Upload Logo"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:190
+msgid "The logo image will be displayed in header of website."
+msgstr ""
+
+#: ../admin/admin_display_setting.php:221
+msgid "Embedded Scripts"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:227
+msgid "Scripts"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:230
+msgid "The scripts you add here will be served after the HTML on every page of your site. You can insert into analytical tools for your website such as <a href=\"http://www.google.com/analytics/\" target=\"_blank\">Google Analytics</a> or <a href=\"http://piwik.org/\" target=\"_blank\">Piwik</a>, ...etc"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:233
+msgid "Must include \"script\" tags <br>"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:261
+msgid "Homepage Listing"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:267
+msgid "Product's Sorting Option"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:270
+msgid "Check on sorting type that you want to display in homepage of review engine"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:273
+msgid "If you don't choose any type, Review Engine will display Recent Product as default"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:289
+msgid "Default Sorting Type"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:292
+msgid "Choose default sorting type that will display first in homepage"
+msgstr ""
+
+#: ../admin/admin_display_setting.php:295
+msgid "Please only choose type that you allow to display in the upon form"
+msgstr ""
+
+#: ../admin/admin_edit_filter.php:10
+#: ../admin/admin_edit_spec.php:10
+msgid "Sorting Group"
+msgstr ""
+
+#: ../admin/admin_edit_filter.php:12
+#: ../admin/admin_edit_spec.php:12
+msgid "Sorting Values"
+msgstr ""
+
+#: ../admin/admin_edit_filter.php:14
+#: ../admin/admin_edit_spec.php:14
+msgid "Edit Group"
+msgstr ""
+
+#: ../admin/admin_edit_filter.php:33
+#: ../admin/admin_filter_manager.php:29
+msgid "Filter Manager"
+msgstr ""
+
+#: ../admin/admin_edit_filter.php:36
+#: ../admin/admin_edit_spec.php:37
+#: ../admin/admin_edit_tab.php:25
+#: ../admin/admin_filter_manager.php:32
+msgid "Contact us at "
+msgstr ""
+
+#: ../admin/admin_edit_filter.php:36
+#: ../admin/admin_edit_spec.php:37
+#: ../admin/admin_edit_tab.php:25
+msgid "Support"
+msgstr ""
+
+#: ../admin/admin_edit_filter.php:51
+#: ../admin/admin_edit_spec.php:52
+#: ../admin/admin_edit_tab.php:40
+msgid "Back"
+msgstr ""
+
+#: ../admin/admin_edit_filter.php:68
+#: ../admin/admin_filter_manager.php:68
+msgid "New Group Name"
+msgstr ""
+
+#: ../admin/admin_edit_filter.php:74
+#: ../admin/admin_edit_spec.php:74
+#: ../admin/admin_filter_manager.php:74
+msgid "Check All"
+msgstr ""
+
+#: ../admin/admin_edit_filter.php:75
+#: ../admin/admin_edit_spec.php:75
+#: ../admin/admin_filter_manager.php:75
+msgid "Uncheck All"
+msgstr ""
+
+#: ../admin/admin_edit_filter.php:106
+#, php-format
+msgid "You are sorting filter groups in category <b>%s</b>. Drag and drop groups and click save"
+msgstr ""
+
+#: ../admin/admin_edit_filter.php:108
+#, php-format
+msgid "You are sorting filter values in group <b>%s</b>. Drag and drop groups and click save"
+msgstr ""
+
+#: ../admin/admin_edit_review.php:9
+msgid "Edit Review"
+msgstr ""
+
+#: ../admin/admin_edit_review.php:22
+msgid "Review's Content for"
+msgstr ""
+
+#: ../admin/admin_edit_review.php:25
+msgid "Title:"
+msgstr ""
+
+#: ../admin/admin_edit_review.php:28
+msgid "The good:"
+msgstr ""
+
+#: ../admin/admin_edit_review.php:31
+msgid "The bad:"
+msgstr ""
+
+#: ../admin/admin_edit_review.php:34
+msgid "Bottom line:"
+msgstr ""
+
+#: ../admin/admin_edit_review.php:37
+msgid "Review:"
+msgstr ""
+
+#: ../admin/admin_edit_spec.php:34
+#: ../admin/admin_edit_tab.php:22
+msgid "Specification Manager"
+msgstr ""
+
+#: ../admin/admin_edit_spec.php:68
+#: ../admin/admin_edit_tab.php:56
+msgid "Group Name"
+msgstr ""
+
+#: ../admin/admin_edit_spec.php:106
+#, php-format
+msgid "You are sorting specification groups in category <b>%s</b>. Drag and drop groups and click save"
+msgstr ""
+
+#: ../admin/admin_edit_spec.php:108
+#, php-format
+msgid "You are sorting specification values in group <b>%s</b>. Drag and drop groups and click save"
+msgstr ""
+
+#: ../admin/admin_edit_tab.php:11
+msgid "Sorting Tabs"
+msgstr ""
+
+#: ../admin/admin_edit_tab.php:15
+msgid "Edit Tab"
+msgstr ""
+
+#: ../admin/admin_edit_tab.php:75
+msgid "You are sorting the additional tabs for product. Drag and drop tabs and click save"
+msgstr ""
+
+#: ../admin/admin_export.php:10
+msgid "Export Products"
+msgstr ""
+
+#: ../admin/admin_export.php:24
+msgid "Export products"
+msgstr ""
+
+#: ../admin/admin_export.php:27
+msgid "Export help you get products from your site. "
+msgstr ""
+
+#: ../admin/admin_export.php:30
+msgid "Choose type of export file "
+msgstr ""
+
+#: ../admin/admin_export.php:32
+msgid "XML file"
+msgstr ""
+
+#: ../admin/admin_export.php:33
+msgid "CSV file"
+msgstr ""
+
+#: ../admin/admin_filter_manager.php:37
+msgid "Your setting has been saved"
+msgstr ""
+
+#: ../admin/admin_filter_manager.php:45
+msgid "The field name is not blank!"
+msgstr ""
+
+#: ../admin/admin_filter_manager.php:47
+msgid "Please select the category for filter!"
+msgstr ""
+
+#: ../admin/admin_filter_manager.php:54
+msgid "Filter Group"
+msgstr ""
+
+#: ../admin/admin_filter_manager.php:56
+msgid "New Group"
+msgstr ""
+
+#: ../admin/admin_filter_manager.php:64
+msgid "Add New Group"
+msgstr ""
+
+#: ../admin/admin_filter_manager.php:88
+msgid "Please choose one category you want to view Specification:"
+msgstr ""
+
+#: ../admin/admin_filter_manager.php:93
+msgid "Sort groups for this category"
+msgstr ""
+
+#: ../admin/admin_filter_manager.php:110
+msgid "Display filter item in this group"
+msgstr ""
+
+#: ../admin/admin_filter_manager.php:133
+#: ../admin/admin_filter_manager.php:161
+#: ../admin/admin_list_articles.php:155
+#: ../admin/admin_list_products.php:150
+msgid "Delete"
+msgstr ""
+
+#: ../admin/admin_filter_manager.php:152
+msgid "Group values (separate by comma)"
+msgstr ""
+
+#: ../admin/admin_filter_manager.php:159
+msgid "New Values"
+msgstr ""
+
+#: ../admin/admin_filter_manager.php:167
+msgid "Sort values of group"
+msgstr ""
+
+#: ../admin/admin_filter_manager.php:193
+msgid "Are you sure want to delete this item ?"
+msgstr ""
+
+#: ../admin/admin_filter_manager.php:206
+msgid "You deleted filter group successfully!"
+msgstr ""
+
+#: ../admin/admin_filter_manager.php:210
+msgid "You deleted filter value successfully!"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:38
+msgid "Currency Symbol"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:40
+msgid "eg, "
+msgstr ""
+
+#: ../admin/admin_general_setting.php:47
+msgid "Symbol"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:54
+msgid "Symbol Position"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:58
+msgid "Before Currency"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:59
+msgid "After Currency"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:60
+msgid "Before Currency With Space"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:61
+msgid "After Currency With Space"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:90
+msgid "Tips Search"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:92
+msgid "Example text for the search box"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:99
+msgid "Search example text"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:103
+msgid "e.g. \"Apple Macbook Pro\", \"Canon EOS 60D\", etc."
+msgstr ""
+
+#: ../admin/admin_general_setting.php:132
+msgid "Items Per Page"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:138
+msgid "Top Products Limitation"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:141
+msgid "Enter the limited number of top products can be displayed at the homepage."
+msgstr ""
+
+#: ../admin/admin_general_setting.php:149
+msgid "Recent Products Limitation"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:152
+msgid "Enter the limited number of recent products can be displayed at the homepage."
+msgstr ""
+
+#: ../admin/admin_general_setting.php:163
+msgid "How many articles per page do you want to show ? And must be numeric."
+msgstr ""
+
+#: ../admin/admin_general_setting.php:171
+msgid "Comments Number"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:174
+msgid "How many comments number for each article do you want to show ? And must be numeric."
+msgstr ""
+
+#: ../admin/admin_general_setting.php:182
+msgid "Products"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:185
+msgid "How many product per page do you want to show ? And must be numeric."
+msgstr ""
+
+#: ../admin/admin_general_setting.php:193
+msgid "Reviews Number"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:196
+msgid "How many reviews number for each product do you want to show ? And must be numeric."
+msgstr ""
+
+#: ../admin/admin_general_setting.php:226
+msgid "Facebook Application API"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:228
+msgid "Provide some informations to use facebook login button in front-end. If you have not facebook API account, you can register at"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:234
+msgid "Facebook App ID"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:237
+msgid "Enter your facebook application API ID after you register facebook application successfully."
+msgstr ""
+
+#: ../admin/admin_general_setting.php:245
+msgid "Facebook App Secret Code"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:248
+msgid "Enter your facebook application secret code after you register facebook application successfully."
+msgstr ""
+
+#: ../admin/admin_general_setting.php:280
+msgid "Feature Redirect Link"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:285
+msgid "Enable Redirect Link"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:288
+msgid "Redirect link help you to hide all the externallink (product url). Example: review engine will display \"www.reviewengine.com/?redirect=12\" instead of \"www.apple.com/iPhone/\"."
+msgstr ""
+
+#: ../admin/admin_general_setting.php:293
+#: ../admin/admin_general_setting.php:338
+#: ../admin/admin_general_setting.php:349
+#: ../admin/admin_general_setting.php:450
+msgid "Yes"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:294
+#: ../admin/admin_general_setting.php:337
+#: ../admin/admin_general_setting.php:348
+#: ../admin/admin_general_setting.php:451
+msgid "No"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:322
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:329
+msgid "Permit Enable Article Feature"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:332
+msgid "Allow article pages display at the front end."
+msgstr ""
+
+#: ../admin/admin_general_setting.php:344
+msgid "Permit Enable Auto-Complete Search"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:355
+msgid "Choose Form That Will Be Displayed Captcha"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:363
+msgid "Registration Form"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:365
+msgid "Login Form"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:367
+msgid "Forgot Password Form"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:369
+msgid "Edit Account Form"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:374
+msgid "Google reCaptcha public key"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:378
+msgid "Note"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:378
+msgid "You can register for public/private keys at "
+msgstr ""
+
+#: ../admin/admin_general_setting.php:378
+msgid "reCaptcha website"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:383
+msgid "Google reCaptcha private key"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:392
+msgid "Product Slug"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:395
+msgid "Change type of product url when in viewing permalink. Default is \"Product\". Example: product slug is \"item\" which mean the product url is \"www.yoursite.com/item/item-name\""
+msgstr ""
+
+#: ../admin/admin_general_setting.php:425
+msgid "Feed"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:430
+msgid "Display feed link at"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:433
+msgid "Check on page that you want the feed link to display"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:437
+msgid "Category page"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:438
+msgid "Article archive page"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:442
+msgid "Display feed link in menu"
+msgstr ""
+
+#: ../admin/admin_general_setting.php:445
+msgid "."
+msgstr ""
+
+#: ../admin/admin_import.php:11
+#: ../admin/admin_import.php:15
+#: ../admin/admin_import_spec.php:11
+#: ../admin/admin_import_spec.php:18
+msgid "Step 1"
+msgstr ""
+
+#: ../admin/admin_import.php:18
+#: ../admin/admin_import_spec.php:21
+msgid "Step 2"
+msgstr ""
+
+#: ../admin/admin_import.php:21
+#: ../admin/admin_import_spec.php:25
+msgid "Finish"
+msgstr ""
+
+#: ../admin/admin_import.php:30
+#: ../admin/admin_import_spec.php:34
+msgid "Import Products"
+msgstr ""
+
+#: ../admin/admin_import.php:47
+msgid "Importation help you insert new products from an external file. You can choose two file type: <b>SCV</b> and <b>XML</b>. Whatever you choose, you must follow the format of the imporation or this feature doesn't work. About specification fields and filter fields you must fill them later when importation's completed"
+msgstr ""
+
+#: ../admin/admin_import_spec.php:15
+msgid "Choose category to import"
+msgstr ""
+
+#: ../admin/admin_import_spec.php:51
+msgid "Importation help you insert new products from an external file. Currently you can import by a <b>CSV</b> file. You must follow the instruction of the imporation or this feature doesn't work."
+msgstr ""
+
+#: ../admin/admin_list_articles.php:9
+msgid "List Articles"
+msgstr ""
+
+#: ../admin/admin_list_articles.php:10
+msgid "Add New Article"
+msgstr ""
+
+#: ../admin/admin_list_articles.php:25
+#: ../admin/admin_list_products.php:24
+#: ../admin/admin_list_reviews.php:121
+msgid "All"
+msgstr ""
+
+#: ../admin/admin_list_articles.php:26
+#: ../admin/admin_list_products.php:25
+msgid "Published"
+msgstr ""
+
+#: ../admin/admin_list_articles.php:27
+#: ../admin/admin_list_products.php:26
+#: ../admin/admin_list_reviews.php:125
+msgid "Trash"
+msgstr ""
+
+#: ../admin/admin_list_articles.php:33
+#: ../admin/admin_list_articles.php:35
+msgid "Search Articles"
+msgstr ""
+
+#: ../admin/admin_list_articles.php:45
+#: ../admin/admin_list_products.php:44
+msgid "Bulk Actions"
+msgstr ""
+
+#: ../admin/admin_list_articles.php:49
+#: ../admin/admin_list_products.php:48
+msgid "Move to trash"
+msgstr ""
+
+#: ../admin/admin_list_articles.php:51
+#: ../admin/admin_list_products.php:50
+msgid "Move to draft"
+msgstr ""
+
+#: ../admin/admin_list_articles.php:53
+#: ../admin/admin_list_products.php:52
+msgid "Pending items"
+msgstr ""
+
+#: ../admin/admin_list_articles.php:55
+#: ../admin/admin_list_products.php:54
+msgid "Physical Delete"
+msgstr ""
+
+#: ../admin/admin_list_articles.php:58
+#: ../admin/admin_list_products.php:57
+#: ../admin/admin_list_reviews.php:149
+msgid "Apply"
+msgstr ""
+
+#: ../admin/admin_list_articles.php:61
+#: ../admin/admin_list_products.php:60
+msgid "View all categories"
+msgstr ""
+
+#: ../admin/admin_list_articles.php:140
+#: ../admin/admin_list_products.php:135
+#: ../admin/admin_list_reviews.php:56
+msgid "No Results"
+msgstr ""
+
+#: ../admin/admin_list_articles.php:150
+#: ../admin/admin_list_articles.php:152
+#: ../admin/admin_list_products.php:145
+#: ../admin/admin_list_products.php:147
+msgid "Edit this item"
+msgstr ""
+
+#: ../admin/admin_list_articles.php:157
+#: ../admin/admin_list_products.php:152
+msgid "View"
+msgstr ""
+
+#: ../admin/admin_list_products.php:8
+msgid "List Products"
+msgstr ""
+
+#: ../admin/admin_list_products.php:9
+msgid "Add New Product"
+msgstr ""
+
+#: ../admin/admin_list_reviews.php:17
+msgid "List Review"
+msgstr ""
+
+#: ../admin/admin_list_reviews.php:69
+msgid "Click this product to view list review of this product"
+msgstr ""
+
+#: ../admin/admin_list_reviews.php:123
+msgid "Approved"
+msgstr ""
+
+#: ../admin/admin_list_reviews.php:124
+msgid "Spam"
+msgstr ""
+
+#: ../admin/admin_list_reviews.php:136
+msgid "Unapprove"
+msgstr ""
+
+#: ../admin/admin_list_reviews.php:140
+msgid "Mark as Spam"
+msgstr ""
+
+#: ../admin/admin_list_reviews.php:145
+msgid "Restore"
+msgstr ""
+
+#: ../admin/admin_list_reviews.php:146
+msgid "Delete Permanently"
+msgstr ""
+
+#: ../admin/admin_list_reviews.php:159
+msgid "General Info"
+msgstr ""
+
+#: ../admin/admin_list_reviews.php:162
+msgid "Likes & Dislikes"
+msgstr ""
+
+#: ../admin/admin_list_suggestions.php:18
+msgid "Youngworld List Suggestions"
+msgstr ""
+
+#: ../admin/admin_list_suggestions.php:51
+msgid "From:"
+msgstr ""
+
+#: ../admin/admin_list_suggestions.php:53
+msgid "To:"
+msgstr ""
+
+#: ../admin/admin_list_suggestions.php:64
+#: ../admin/admin_list_suggestions.php:74
+msgid "Content"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:26
+#: ../admin/admin_mailing_settings.php:31
+#: ../admin/admin_mailing_settings.php:36
+#: ../admin/admin_mailing_settings.php:41
+#: ../admin/admin_mailing_settings.php:46
+#: ../admin/admin_mailing_settings.php:51
+#: ../admin/admin_mailing_settings.php:56
+#: ../admin/admin_mailing_settings.php:61
+#: ../admin/admin_mailing_settings.php:66
+#: ../admin/admin_mailing_settings.php:71
+msgid "Error: "
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:79
+msgid "Your settings have been successfully."
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:90
+msgid "Register Mailing"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:100
+msgid "Enable Register Mailing"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:102
+msgid "Toggle the feature sending mail to people who register successful"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:105
+#: ../admin/admin_mailing_settings.php:384
+#: ../admin/admin_review_settings.php:63
+#: ../admin/admin_review_settings.php:80
+#: ../admin/admin_review_settings.php:97
+#: ../admin/admin_review_settings.php:131
+#: ../admin/admin_review_settings.php:148
+#: ../admin/admin_seo_settings.php:50
+msgid "Enable"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:106
+#: ../admin/admin_mailing_settings.php:385
+#: ../admin/admin_review_settings.php:62
+#: ../admin/admin_review_settings.php:79
+#: ../admin/admin_review_settings.php:96
+#: ../admin/admin_review_settings.php:130
+#: ../admin/admin_review_settings.php:147
+#: ../admin/admin_seo_settings.php:51
+msgid "Disable"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:110
+msgid "Register Mail Title"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:110
+#: ../admin/admin_mailing_settings.php:130
+#: ../admin/admin_mailing_settings.php:182
+#: ../admin/admin_mailing_settings.php:202
+#: ../admin/admin_mailing_settings.php:248
+#: ../admin/admin_mailing_settings.php:267
+#: ../admin/admin_mailing_settings.php:308
+#: ../admin/admin_mailing_settings.php:327
+#: ../admin/admin_mailing_settings.php:389
+#: ../admin/admin_mailing_settings.php:408
+msgid " (required)"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:113
+#: ../admin/admin_mailing_settings.php:133
+#: ../admin/admin_mailing_settings.php:185
+#: ../admin/admin_mailing_settings.php:251
+#: ../admin/admin_mailing_settings.php:311
+#: ../admin/admin_mailing_settings.php:392
+msgid "You can use some short codes to enhance your message title such as"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:130
+msgid "Register Mail Message"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:135
+msgid "customer name"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:136
+msgid "website address"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:137
+msgid "the login address"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:138
+msgid "the website name"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:160
+#: ../admin/admin_mailing_settings.php:226
+#: ../admin/admin_mailing_settings.php:289
+#: ../admin/admin_mailing_settings.php:352
+#: ../admin/admin_mailing_settings.php:429
+msgid " Save"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:161
+#: ../admin/admin_mailing_settings.php:227
+#: ../admin/admin_mailing_settings.php:290
+#: ../admin/admin_mailing_settings.php:353
+#: ../admin/admin_mailing_settings.php:430
+msgid " Reset to Default"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:177
+msgid "New Facebook Login Account Mailing "
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:182
+msgid "New Account Mail Title"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:202
+msgid "New Account Mail Message"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:205
+#: ../admin/admin_mailing_settings.php:270
+#: ../admin/admin_mailing_settings.php:330
+#: ../admin/admin_mailing_settings.php:411
+msgid "You can use some short codes to enhance your message such as"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:243
+msgid "Reset Password Confirm Mailing"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:248
+msgid "Reset Password Confirm Mail Title"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:267
+msgid "Reset Password Mail Message"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:303
+msgid "New Password Mailing"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:308
+msgid "New Password Mail Title"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:327
+msgid "New Password Mail Message"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:369
+msgid "Publish Review Mailing"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:379
+msgid "Enable Publish Review Mailing"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:381
+msgid "Toggle the feature sending mail to people when publish a review"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:389
+msgid "Publish Review Mail Title"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:408
+msgid "Publish Review Mail Message"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:443
+msgid "Save all"
+msgstr ""
+
+#: ../admin/admin_mailing_settings.php:444
+msgid "Reset all to Default"
+msgstr ""
+
+#: ../admin/admin_prepare_import.php:18
+msgid "Import/Export Products"
+msgstr ""
+
+#: ../admin/admin_prepare_import.php:31
+msgid "Import products"
+msgstr ""
+
+#: ../admin/admin_prepare_import.php:34
+#: ../admin/admin_prepare_import.php:42
+msgid "Get data from external file. It fill informations in your sites the fastest"
+msgstr ""
+
+#: ../admin/admin_prepare_import.php:39
+msgid "Import products with Specification"
+msgstr ""
+
+#: ../admin/admin_prepare_import.php:50
+msgid "Get data from your system"
+msgstr ""
+
+#: ../admin/admin_rating.php:37
+msgid "Rating Management"
+msgstr ""
+
+#: ../admin/admin_rating.php:68
+msgid "Rating"
+msgstr ""
+
+#: ../admin/admin_rating.php:75
+#: ../admin/admin_rating.php:91
+msgid "Add"
+msgstr ""
+
+#: ../admin/admin_rating.php:88
+msgid "New Rating"
+msgstr ""
+
+#: ../admin/admin_rating.php:95
+msgid "Rating for category"
+msgstr ""
+
+#: ../admin/admin_rating.php:99
+msgid "Save rating of this category?"
+msgstr ""
+
+#: ../admin/admin_rating.php:118
+msgid "You have add this rating already!"
+msgstr ""
+
+#: ../admin/admin_rating.php:175
+msgid "Do you really want to delete this rating"
+msgstr ""
+
+#: ../admin/admin_rating.php:268
+msgid "remove"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:45
+msgid "Review settings"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:53
+msgid "Enable facebook Login"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:57
+msgid "Enable facebook login or not?"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:70
+msgid "Allow Review"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:74
+msgid "Allow user review or not?"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:87
+msgid "Allow User like/dislike review"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:91
+msgid "Allow user like/dislike review?"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:104
+msgid "Showing rating of"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:108
+msgid "Choose user rating of editor rating to show in product list."
+msgstr ""
+
+#: ../admin/admin_review_settings.php:113
+msgid "User"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:114
+msgid "Editor"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:121
+msgid "User have editor?"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:125
+msgid "User can use editor or not."
+msgstr ""
+
+#: ../admin/admin_review_settings.php:138
+msgid "Auto publish submitted review"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:142
+msgid "Enables automated publishing review or not."
+msgstr ""
+
+#: ../admin/admin_review_settings.php:156
+msgid "Minimum number of review(s)"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:160
+msgid "Specified minimum number of published reviews that the member needed to \"auto publish\". If you enter the number 3, members must have 3 published reviews or more to get their review be \"auto publish\" automatically"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:165
+msgid "Must be a non-negative number"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:171
+msgid "Submit review without login"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:175
+msgid "Allow submit review without login."
+msgstr ""
+
+#: ../admin/admin_review_settings.php:186
+msgid "Title limitation"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:186
+#: ../admin/admin_review_settings.php:195
+#: ../admin/admin_review_settings.php:204
+#: ../admin/admin_review_settings.php:213
+#: ../admin/admin_review_settings.php:222
+msgid "required"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:189
+msgid "Title words count limitation"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:195
+msgid "\"The bad\" limitation"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:198
+msgid "The maximum number of words written in the defect"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:204
+msgid "\"The good\" limitation"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:207
+msgid "The maximum number of words written in the advantages"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:213
+msgid "\"Bottom line\" limitation"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:216
+msgid "The maximum number of words written in bottom line"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:222
+msgid "Review limitation"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:225
+msgid "The maximum number of words written in review content"
+msgstr ""
+
+#: ../admin/admin_review_settings.php:239
+msgid "Reset to default"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:39
+msgid "SEO"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:46
+msgid "Allow SEO settings"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:58
+msgid "Home Title"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:61
+msgid "As the name implies, this will be the title of your homepage. This is independent of any other option. If not set, the default blog title will get used."
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:69
+msgid "Home Description"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:72
+msgid "The META description for your homepage. Independent of any other options, the default is no META description at all if this is not set."
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:81
+msgid "Home Keywords (comma separated)"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:84
+msgid "A comma separated list of your most important keywords for your site that will be written as META keywords on your homepage. Don't stuff everything in here."
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:92
+msgid "Canonical URLs "
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:95
+msgid "This option will automatically generate Canonical URLS for your entire WordPress installation. This will help to prevent duplicate content penalties by Google."
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:103
+msgid "Rewrite Titles"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:106
+msgid "Note that this is all about the title tag. This is what you see in your browser's window title bar. This is NOT visible on a page, only in the window title bar and of course in the source. If set, all page, post, category, search and archive page titles get rewritten. You can specify the format for most of them."
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:114
+msgid "Post Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:117
+msgid ""
+"The following macros are supported:\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t    %blog_title% - Your blog title\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t    %blog_description% - Your blog description\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t    %post_title% - The original title of the post\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t    %category_title% - The (main) category of the post\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t    %category% - Alias for %category_title%\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t    %post_author_login% - This post's author' login\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t    %post_author_nicename% - This post's author' nicename\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t    %post_author_firstname% - This post's author' first name (capitalized)\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t    %post_author_lastname% - This post's author' last name (capitalized)"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:136
+msgid "Page Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:139
+msgid ""
+"The following macros are supported:\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t    %blog_description% - Your blog description\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t    %page_title% - The original title of the page\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t    %page_author_login% - This page's author' login\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t    %page_author_nicename% - This page's author' nicename\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t    %page_author_firstname% - This page's author' first name (capitalized)\n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t    %page_author_lastname% - This page's author' last name (capitalized)"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:156
+msgid "Achive Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:159
+msgid ""
+"The following macros are supported:\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_description% - Your blog description\n"
+"   \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t%date% - The original archive title given by wordpress, e.g. \"2007\" or \"2007 August\""
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:172
+msgid "Register Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:175
+msgid ""
+"The following macros are supported:\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_description% - Your blog description\n"
+"   \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t%register% - register title or any words you want"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:188
+msgid "Login Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:191
+msgid ""
+"The following macros are supported:\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_description% - Your blog description\n"
+"   \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t%login% - login title or any words you want"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:204
+msgid "Logout Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:207
+msgid ""
+"The following macros are supported:\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_description% - Your blog description\n"
+"   \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t%logout% - logout title or any words you want"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:220
+msgid "Edit Profile Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:223
+msgid ""
+"The following macros are supported:\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_description% - Your blog description\n"
+"   \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t%profile% - Profile title or any words you want"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:236
+msgid "Forgot Password Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:239
+msgid ""
+"The following macros are supported:\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_description% - Your blog description\n"
+"   \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t%forgot_pass% - forgot password title"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:252
+msgid "Login Facebook Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:255
+msgid ""
+"The following macros are supported:\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_description% - Your blog description\n"
+"   \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t%facebook% - Facebook login title"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:268
+msgid "Message Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:271
+msgid ""
+"The following macros are supported:\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_description% - Your blog description\n"
+"   \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t%message% - Message title"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:284
+msgid "Product Suggest Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:287
+msgid ""
+"The following macros are supported:\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_description% - Your blog description\n"
+"   \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t%suggest% - suggest product title"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:300
+msgid "Compare Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:303
+msgid ""
+"The following macros are supported:\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_description% - Your blog description\n"
+"   \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t%compare% - compare page title"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:316
+msgid "List Articles Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:319
+msgid ""
+"The following macros are supported:\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_description% - Your blog description\n"
+"   \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t%articles% - list articles page title"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:332
+msgid "Tag Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:335
+msgid ""
+"The following macros are supported:\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"   \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_description% - Your blog description\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%tag% - The name of the tag"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:348
+msgid "Search Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:351
+msgid ""
+"The following macros are supported:\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_description% - Your blog description\n"
+"   \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t%search% - What was searched for"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:364
+msgid "Description Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:367
+msgid ""
+"The following macros are supported:\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_description% - Your blog description\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%description% - The original description as determined by the plugin, e.g. the excerpt if one is set or an auto-generated one"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:380
+msgid "Category Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:383
+msgid ""
+"The following macros are supported:\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_description% - Your blog description\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%category_title% - The original title of the category"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:394
+msgid "404 Title Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:397
+msgid ""
+"The following macros are supported:\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_title% - Your blog title\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%blog_description% - Your blog description\n"
+"    \t\t\t\t\t\t\t\t\t\t\t\t\t\t%404_title% - Additional 404 title input"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:410
+msgid "Page Format"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:413
+msgid "This string gets appended/prepended to titles when they are for paged index pages (like home or archive pages).The following macros are supported: %page% - The page number"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:423
+msgid "SEO for Custom Post Types"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:426
+msgid "Check this if you want your enable SEO support for Custom Post Types on this site."
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:434
+msgid "Custom Post Types for SEO Column Support"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:437
+msgid "Choose which post types you want to have SEO columns on the screen. You can select as many as you like."
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:450
+msgid "Post"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:456
+msgid "Article"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:460
+msgid "Use Categories for META keywords"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:463
+msgid "Check this if you want your categories for a given post used as the META keywords for this post (in addition to any keywords and tags you specify on the post edit page)."
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:471
+msgid "Use Tags for META keywords"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:474
+msgid "Check this if you want your tags for a given post used as the META keywords for this post (in addition to any keywords you specify on the post edit page)."
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:482
+msgid "Dynamically Generate keywords for Posts Page"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:485
+msgid "Check this if you want your keywords on a custom posts page (set it in options->reading) to be dynamically generated from the keywords of the posts showing on that page. If unchecked, it will use the keywords set in the edit page screen for the posts page."
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:494
+msgid "Use noindex for Categories"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:497
+msgid "Check this for excluding category pages from being crawled. Useful for avoiding duplicate content."
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:505
+msgid "Use noindex for Achives"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:508
+msgid "Check this for excluding archive pages from being crawled. Useful for avoiding duplicate content."
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:516
+msgid "Use noindex for Tag Achives"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:519
+msgid "Check this for excluding tag pages from being crawled. Useful for avoiding duplicate content."
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:528
+msgid "Autogenerate Descriptions"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:531
+msgid "Check this and your META descriptions will get autogenerated if there's no excerpt."
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:539
+msgid "Additional Post Headers"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:542
+msgid "What you enter here will be copied verbatim to your header on post pages. You can enter whatever additional headers you want here, even references to stylesheets."
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:550
+msgid "Additional Page Headers"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:553
+msgid "What you enter here will be copied verbatim to your header on pages. You can enter whatever additional headers you want here, even references to stylesheets."
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:561
+msgid "Additional Home Headers"
+msgstr ""
+
+#: ../admin/admin_seo_settings.php:564
+msgid "What you enter here will be copied verbatim to your header on the home page. You can enter whatever additional headers you want here, even references to stylesheets."
+msgstr ""
+
+#: ../admin/admin_spec.php:51
+msgid "Specification Group"
+msgstr ""
+
+#: ../admin/admin_spec.php:85
+msgid "Please choose one category you want to view specification:"
+msgstr ""
+
+#: ../admin/admin_spec.php:107
+msgid "Display specification item in this group"
+msgstr ""
+
+#: ../admin/admin_spec.php:204
+msgid "You deleted specification group successfully!"
+msgstr ""
+
+#: ../admin/admin_spec.php:208
+msgid "You deleted specification value successfully!"
+msgstr ""
+
+#: ../admin/admin_tab_manager.php:27
+msgid "Tab Manager"
+msgstr ""
+
+#: ../admin/admin_tab_manager.php:49
+msgid "Tab List"
+msgstr ""
+
+#: ../admin/admin_tab_manager.php:51
+msgid "Add New"
+msgstr ""
+
+#: ../admin/admin_tab_manager.php:59
+msgid "Add New Tab"
+msgstr ""
+
+#: ../admin/admin_tab_manager.php:63
+msgid "New Tab Name"
+msgstr ""
+
+#: ../admin/admin_tab_manager.php:78
+msgid "Sort the tabs below"
+msgstr ""
+
+#: ../admin/admin_tab_manager.php:93
+msgid "Display tab's control"
+msgstr ""
+
+#: ../admin/admin_tab_manager.php:112
+msgid "The additional tab for products is empty"
+msgstr ""
+
+#: ../admin/admin_tab_manager.php:138
+msgid "You deleted tab successfully!"
+msgstr ""
+
+#: ../admin/admin_top_product.php:66
+msgid "To add top product manually, please use search box below"
+msgstr ""
+
+#: ../admin/admin_top_product.php:70
+msgid "Display these products in homepage. If you uncheck this, Review Engine will display top rating product by default"
+msgstr ""
+
+#: ../admin/admin_top_product.php:89
+msgid "Search"
+msgstr ""
+
+#: ../admin/admin_top_product.php:94
+msgid "Check all"
+msgstr ""
+
+#: ../admin/admin_top_product.php:95
+msgid "Uncheck all"
+msgstr ""
+
+#: ../admin/admin_top_product.php:99
+msgid "No product available"
+msgstr ""
+
+#: ../admin/admin_top_product.php:104
+msgid "Add top product"
+msgstr ""
+
+#: ../admin/admin_top_product.php:152
+#: ../admin/admin_top_product.php:160
+msgid "No product available."
+msgstr ""
+
+#: ../admin/admin_top_product.php:210
+msgid "This product deleted successfully"
+msgstr ""
+
+#: ../admin/admin_top_product.php:215
+msgid "The product deleted successfully"
+msgstr ""
+
+#: ../admin/admin_top_product.php:220
+#: ../admin/admin_top_product.php:225
+#: ../admin/admin_top_product.php:230
+msgid "Can not delete this product. Please try again."
+msgstr ""
+
+#: ../admin/admin_update.php:12
+msgid "Review Engine Update"
+msgstr ""
+
+#: ../admin/admin_update.php:24
+msgid "Convert from Posts to Articles"
+msgstr ""
+
+#: ../admin/admin_update.php:26
+msgid "Convert these post type to article type:"
+msgstr ""
+
+#: ../admin/admin_update.php:54
+msgid "Convert Specification and Filter database (version 2.0)"
+msgstr ""
+
+#: ../admin/admin_update.php:56
+msgid "Please click the below button to convert old Specification & Filter database to new Specification & Filter database:"
+msgstr ""
+
+#: ../admin/admin_update.php:57
+msgid "NOTE: Your old Specification and pictures have been lost, please back up your database before converting"
+msgstr ""
+
+#: ../admin_processing/admin_add_article_processing.php:19
+msgid "Article draft updated."
+msgstr ""
+
+#: ../admin_processing/admin_add_article_processing.php:31
+msgid "Article updated."
+msgstr ""
+
+#: ../admin_processing/admin_add_article_processing.php:36
+msgid "Article published."
+msgstr ""
+
+#: ../admin_processing/admin_add_product_processing.php:16
+msgid "Invalid product ID"
+msgstr ""
+
+#: ../admin_processing/admin_add_product_processing.php:219
+msgid "Add Product"
+msgstr ""
+
+#: ../admin_processing/admin_add_product_processing.php:221
+msgid "Edit Product"
+msgstr ""
+
+#: ../admin_processing/admin_dashboard_list_reviews_processing.php:6
+msgid "The review has been approved successfully."
+msgstr ""
+
+#: ../admin_processing/admin_display_setting_processing.php:12
+msgid "Set default language successfully."
+msgstr ""
+
+#: ../admin_processing/admin_display_setting_processing.php:19
+msgid "Activate language successfully."
+msgstr ""
+
+#: ../admin_processing/admin_display_setting_processing.php:23
+msgid "Error: Please choose the language."
+msgstr ""
+
+#: ../admin_processing/admin_display_setting_processing.php:34
+msgid "Error: Can't upload your favicon."
+msgstr ""
+
+#: ../admin_processing/admin_display_setting_processing.php:38
+msgid "Error: The favicon type should be a *.ico file."
+msgstr ""
+
+#: ../admin_processing/admin_display_setting_processing.php:42
+msgid "Error: Please enter your favicon path."
+msgstr ""
+
+#: ../admin_processing/admin_display_setting_processing.php:51
+msgid "Upload your new favicon successfully."
+msgstr ""
+
+#: ../admin_processing/admin_display_setting_processing.php:62
+msgid "Set default logo successfully."
+msgstr ""
+
+#: ../admin_processing/admin_display_setting_processing.php:71
+msgid "Error: Can't upload your logo."
+msgstr ""
+
+#: ../admin_processing/admin_display_setting_processing.php:75
+msgid "Error: Please enter your logo path."
+msgstr ""
+
+#: ../admin_processing/admin_display_setting_processing.php:85
+msgid "Error: We can't upload your logo."
+msgstr ""
+
+#: ../admin_processing/admin_display_setting_processing.php:94
+msgid "Upload your new logo successfully."
+msgstr ""
+
+#: ../admin_processing/admin_display_setting_processing.php:101
+msgid "The embedded scripts had been saved"
+msgstr ""
+
+#: ../admin_processing/admin_edit_review_processing.php:34
+msgid "Review has been edited successfully"
+msgstr ""
+
+#: ../admin_processing/admin_filter_processing.php:19
+msgid "Please enter filter group name!"
+msgstr ""
+
+#: ../admin_processing/admin_filter_processing.php:24
+#: ../admin_processing/admin_filter_processing.php:65
+msgid "Please select the category for filter group!"
+msgstr ""
+
+#: ../admin_processing/admin_filter_processing.php:60
+msgid "The filter group name is not blank!"
+msgstr ""
+
+#: ../admin_processing/admin_filter_processing.php:118
+#: ../admin_processing/admin_filter_processing.php:141
+#: ../admin_processing/admin_filter_processing.php:157
+msgid "Please enter filter value!"
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:11
+msgid "The limited number of top products should be numeric"
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:13
+msgid "The limited number of recent products should be numeric"
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:15
+msgid "The articles field should be numeric"
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:17
+msgid "The comments for article field should be numeric"
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:19
+msgid "The products field should be numeric"
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:21
+msgid "The reviews for product field should be numeric"
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:24
+msgid "The limited number of top products should be equal or greater than 0"
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:26
+msgid "The limited number of recent products should be equal or greater than 0"
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:28
+msgid "The articles field should be equal or greater than 1"
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:30
+msgid "The comments for article field should be equal or greater than 1"
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:32
+msgid "The products field should be equal or greater than 1"
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:34
+msgid "The reviews for product field should be equal or greater than 1"
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:50
+msgid "Your items per page settings had been saved."
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:67
+msgid "Your currency symbol had been saved."
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:81
+msgid "Your search example text had been saved."
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:94
+msgid "Your facebook API informations had been saved."
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:180
+#: ../admin_processing/seo_setting_processing.php:103
+msgid "Your SEO settings had been saved."
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:188
+msgid "Your feature redirect link setting had been saved."
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:252
+msgid "Your miscellaneous settings had been saved."
+msgstr ""
+
+#: ../admin_processing/admin_general_setting_processing.php:272
+msgid "Your feed settings had been saved."
+msgstr ""
+
+#: ../admin_processing/admin_import_processing.php:146
+#: ../admin_processing/admin_import_spec_processing.php:237
+msgid " products has been inserted"
+msgstr ""
+
+#: ../admin_processing/admin_import_processing.php:146
+#: ../admin_processing/admin_import_spec_processing.php:237
+msgid " product has been inserted"
+msgstr ""
+
+#: ../admin_processing/admin_import_processing.php:178
+msgid "Each line of your csv file describe a product, you must seperate product's information by comma \",\". <br/> Information order is :(title, description, category-id, author-id, price, link product). <br />  "
+msgstr ""
+
+#: ../admin_processing/admin_import_processing.php:210
+msgid "Description"
+msgstr ""
+
+#: ../admin_processing/admin_import_processing.php:211
+msgid "Cat ID"
+msgstr ""
+
+#: ../admin_processing/admin_import_processing.php:213
+msgid "Link product"
+msgstr ""
+
+#: ../admin_processing/admin_import_processing.php:240
+msgid "There is no available field yet!"
+msgstr ""
+
+#: ../admin_processing/admin_import_processing.php:246
+#: ../admin_processing/admin_import_spec_processing.php:346
+msgid "Choose status for above products: "
+msgstr ""
+
+#: ../admin_processing/admin_import_processing.php:254
+#: ../admin_processing/admin_import_spec_processing.php:354
+msgid "Import these selected products?"
+msgstr ""
+
+#: ../admin_processing/admin_import_processing.php:268
+#: ../admin_processing/admin_import_spec_processing.php:369
+msgid "You have imported products successfully. Now you can "
+msgstr ""
+
+#: ../admin_processing/admin_import_processing.php:269
+#: ../admin_processing/admin_import_spec_processing.php:370
+msgid " import another file "
+msgstr ""
+
+#: ../admin_processing/admin_import_processing.php:269
+#: ../admin_processing/admin_import_spec_processing.php:370
+msgid " or "
+msgstr ""
+
+#: ../admin_processing/admin_import_processing.php:270
+#: ../admin_processing/admin_import_spec_processing.php:371
+msgid " go to list products page"
+msgstr ""
+
+#: ../admin_processing/admin_import_spec_processing.php:263
+msgid "<b>NOTE: </b>Please choose one category to process import products with specification. Because each category has it's own specification so you must import products in same categories in a same time only"
+msgstr ""
+
+#: ../admin_processing/admin_import_spec_processing.php:270
+msgid "Include Specification Importation"
+msgstr ""
+
+#: ../admin_processing/admin_import_spec_processing.php:274
+msgid "Continue"
+msgstr ""
+
+#: ../admin_processing/admin_import_spec_processing.php:290
+msgid "Sample"
+msgstr ""
+
+#: ../admin_processing/admin_import_spec_processing.php:291
+msgid "Each line of your csv file describe a product, you must seperate product's information by comma \",\". <br/>  "
+msgstr ""
+
+#: ../admin_processing/admin_import_spec_processing.php:344
+msgid "Import to category "
+msgstr ""
+
+#: ../admin_processing/admin_list_products_processing.php:103
+msgid "Updated status successfully!"
+msgstr ""
+
+#: ../admin_processing/admin_list_products_processing.php:117
+msgid "Move to trash successfully!"
+msgstr ""
+
+#: ../admin_processing/admin_list_products_processing.php:131
+msgid "Move to draft successfully!"
+msgstr ""
+
+#: ../admin_processing/admin_list_products_processing.php:145
+msgid "Pending successfully!"
+msgstr ""
+
+#: ../admin_processing/admin_list_products_processing.php:159
+msgid "Physical delete successfully!"
+msgstr ""
+
+#: ../admin_processing/admin_list_reviews_processing.php:76
+#, php-format
+msgid "Product %s has been unapproved."
+msgstr ""
+
+#: ../admin_processing/admin_list_reviews_processing.php:83
+msgid "Products has been unapproved successfully."
+msgstr ""
+
+#: ../admin_processing/admin_list_reviews_processing.php:88
+#, php-format
+msgid "Product %s has been approved."
+msgstr ""
+
+#: ../admin_processing/admin_list_reviews_processing.php:95
+msgid "Products has been approved successfully."
+msgstr ""
+
+#: ../admin_processing/admin_list_reviews_processing.php:101
+#, php-format
+msgid "Product %s has been marked as spam."
+msgstr ""
+
+#: ../admin_processing/admin_list_reviews_processing.php:107
+msgid "Products has been marked as spam successfully."
+msgstr ""
+
+#: ../admin_processing/admin_list_reviews_processing.php:113
+#, php-format
+msgid "Product %s has been move to trash."
+msgstr ""
+
+#: ../admin_processing/admin_list_reviews_processing.php:119
+msgid "Products has been moved to trash successfully."
+msgstr ""
+
+#: ../admin_processing/admin_list_reviews_processing.php:125
+#, php-format
+msgid "Product %s has been deleted."
+msgstr ""
+
+#: ../admin_processing/admin_list_reviews_processing.php:131
+msgid "Products has been deleted successfully."
+msgstr ""
+
+#: ../admin_processing/admin_list_reviews_processing.php:137
+#, php-format
+msgid "Product %s has been moved to pending."
+msgstr ""
+
+#: ../admin_processing/admin_list_reviews_processing.php:143
+msgid "Products has been restored successfully."
+msgstr ""
+
+#: ../admin_processing/admin_list_suggestions_processing.php:43
+msgid "You deleted suggestion(s) successfully!"
+msgstr ""
+
+#: ../admin_processing/admin_list_suggestions_processing.php:54
+msgid "You deleted suggestion successfully!"
+msgstr ""
+
+#: ../admin_processing/admin_list_suggestions_processing.php:204
+msgid "Are you sure want to delete this suggestion(s) ?"
+msgstr ""
+
+#: ../admin_processing/admin_mailing_settings_proccess.php:117
+#: ../admin_processing/admin_mailing_settings_processing.php:140
+msgid "Register Mail Title can't be empty"
+msgstr ""
+
+#: ../admin_processing/admin_mailing_settings_proccess.php:121
+#: ../admin_processing/admin_mailing_settings_processing.php:144
+msgid "Register Mail Message can't be empty"
+msgstr ""
+
+#: ../admin_processing/admin_mailing_settings_proccess.php:135
+#: ../admin_processing/admin_mailing_settings_processing.php:174
+msgid "Reset Password Confirm Mail Title can't be empty"
+msgstr ""
+
+#: ../admin_processing/admin_mailing_settings_proccess.php:139
+#: ../admin_processing/admin_mailing_settings_processing.php:178
+msgid "Reset Password Confirm Mail Message can't be empty"
+msgstr ""
+
+#: ../admin_processing/admin_mailing_settings_proccess.php:152
+#: ../admin_processing/admin_mailing_settings_processing.php:191
+msgid "New Password Mail Title can't be empty"
+msgstr ""
+
+#: ../admin_processing/admin_mailing_settings_proccess.php:156
+#: ../admin_processing/admin_mailing_settings_processing.php:195
+msgid "New Password Mail Message can't be empty"
+msgstr ""
+
+#: ../admin_processing/admin_mailing_settings_proccess.php:169
+#: ../admin_processing/admin_mailing_settings_processing.php:208
+msgid "Publish Review Mail Title can't be empty"
+msgstr ""
+
+#: ../admin_processing/admin_mailing_settings_proccess.php:173
+#: ../admin_processing/admin_mailing_settings_processing.php:212
+msgid "Publish Review Mail Message can't be empty"
+msgstr ""
+
+#: ../admin_processing/admin_mailing_settings_processing.php:158
+#: ../admin_processing/admin_mailing_settings_processing.php:162
+msgid "New Account Title can't be empty."
+msgstr ""
+
+#: ../admin_processing/admin_rating_processing.php:50
+msgid "Rating name can not be empty"
+msgstr ""
+
+#: ../admin_processing/admin_rating_processing.php:57
+msgid "Add rating successfully"
+msgstr ""
+
+#: ../admin_processing/admin_rating_processing.php:70
+msgid "Save Rating successfully"
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:59
+msgid "Updated successfully!"
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:65
+msgid "Default settings are updated!"
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:89
+msgid "Minimum posts must be a number."
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:91
+msgid "Minimum posts must be a non-negative number."
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:100
+msgid "Please enter title limitation."
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:102
+msgid "Title limitation must be a number."
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:104
+msgid "Title limitation must be greater than 0."
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:110
+msgid "Please enter the bad limitation."
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:112
+msgid "'The bad' limitation must be a number."
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:114
+msgid "'The bad' limitation must be greater than 0."
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:119
+msgid "Please enter the good limitation."
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:121
+msgid "'The good' limitation must be a number."
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:123
+msgid "'The good' limitation must be greater than 0."
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:128
+msgid "Please enter bottom line limitation."
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:130
+msgid "'Bottom line' limitation must be a number."
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:132
+msgid "'Bottom line' limitation must be greater than 0."
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:137
+msgid "Please enter review limitation."
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:139
+msgid "Review limitation must be a number."
+msgstr ""
+
+#: ../admin_processing/admin_review_settings_processing.php:141
+msgid "Review limitation must be greater than 0."
+msgstr ""
+
+#: ../admin_processing/admin_specification_processing.php:17
+msgid "Please enter specification group name!"
+msgstr ""
+
+#: ../admin_processing/admin_specification_processing.php:19
+#: ../admin_processing/admin_specification_processing.php:53
+msgid "Please select the category for specification group!"
+msgstr ""
+
+#: ../admin_processing/admin_specification_processing.php:51
+msgid "The specification group name is not blank!"
+msgstr ""
+
+#: ../admin_processing/admin_specification_processing.php:103
+#: ../admin_processing/admin_specification_processing.php:123
+#: ../admin_processing/admin_specification_processing.php:137
+msgid "Please enter specification value!"
+msgstr ""
+
+#: ../admin_processing/admin_tab_processing.php:15
+msgid "Please enter the name for new tab!"
+msgstr ""
+
+#: ../admin_processing/admin_tab_processing.php:33
+msgid "The tab name is not blank!"
+msgstr ""
+
+#: ../admin_processing/admin_top_product_processing.php:17
+msgid "Adding top product successfully"
+msgstr ""
+
+#: ../admin_processing/admin_top_product_processing.php:18
+msgid "Sorry, this product already exists in the top product."
+msgstr ""
+
+#: ../admin_processing/admin_top_product_processing.php:19
+msgid "Sorry, cant not add this product in top."
+msgstr ""
+
+#: ../admin_processing/admin_top_product_processing.php:21
+msgid "ERROR: Please choose product."
+msgstr ""
+
+#: ../admin_processing/admin_top_product_processing.php:29
+msgid "You have successfully arranged for top product"
+msgstr ""
+
+#: ../admin_processing/admin_update_post_processing.php:14
+msgid "You have updated successfully."
+msgstr ""
+
+#: ../admin_processing/admin_update_post_processing.php:18
+msgid "Sorry, can not updated. Please try again."
+msgstr ""
+
+#: ../admin_processing/admin_update_post_processing.php:28
+msgid "You have converted successfully."
+msgstr ""
+
+#: ../ajax/admin_article_auto_save_trash.php:10
+msgid "You are not permission"
+msgstr ""
+
+#: ../ajax/ajax_admin_search_product.php:35
+#: ../ajax/ajax_admin_top_product.php:59
+msgid "List of Product"
+msgstr ""
+
+#: ../ajax/ajax_admin_search_product.php:66
+msgid "You chose"
+msgstr ""
+
+#: ../ajax/ajax_like_review.php:29
+msgid "User has voted already"
+msgstr ""
+
+#: ../ajax/ajax_spec_get.php:38
+msgid "This specification has no specification value"
+msgstr ""
+
+#: ../functions/general_functions.php:142
+#: ../functions/general_functions.php:208
+msgid "There is no user's rating yet"
+msgstr ""
+
+#: ../functions/general_functions.php:143
+#: ../functions/general_functions.php:209
+#: ../functions/setup.php:466
+#: ../functions/setup.php:484
+msgid "Abysmal"
+msgstr ""
+
+#: ../functions/general_functions.php:144
+#: ../functions/general_functions.php:210
+#: ../functions/setup.php:467
+#: ../functions/setup.php:485
+msgid "Terrible"
+msgstr ""
+
+#: ../functions/general_functions.php:145
+#: ../functions/general_functions.php:211
+#: ../functions/setup.php:468
+#: ../functions/setup.php:486
+msgid "Poor"
+msgstr ""
+
+#: ../functions/general_functions.php:146
+#: ../functions/general_functions.php:212
+#: ../functions/setup.php:469
+#: ../functions/setup.php:487
+msgid "Mediocre"
+msgstr ""
+
+#: ../functions/general_functions.php:148
+#: ../functions/general_functions.php:214
+#: ../functions/setup.php:471
+#: ../functions/setup.php:489
+msgid "Good"
+msgstr ""
+
+#: ../functions/general_functions.php:149
+#: ../functions/general_functions.php:215
+#: ../functions/setup.php:472
+#: ../functions/setup.php:490
+msgid "Very Good"
+msgstr ""
+
+#: ../functions/general_functions.php:150
+#: ../functions/general_functions.php:216
+#: ../functions/setup.php:473
+#: ../functions/setup.php:491
+msgid "Excellent"
+msgstr ""
+
+#: ../functions/general_functions.php:151
+#: ../functions/general_functions.php:217
+#: ../functions/setup.php:474
+#: ../functions/setup.php:492
+msgid "Outstanding"
+msgstr ""
+
+#: ../functions/general_functions.php:152
+#: ../functions/general_functions.php:218
+#: ../functions/setup.php:475
+#: ../functions/setup.php:493
+msgid "Spectacular"
+msgstr ""
+
+#: ../functions/general_functions.php:1086
+#: ../functions/general_functions.php:1228
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions/general_functions.php:1089
+msgid "Editor's review:"
+msgstr ""
+
+#: ../functions/general_functions.php:1096
+msgid "Editor's Rating:"
+msgstr ""
+
+#: ../functions/general_functions.php:1124
+#: ../functions/general_functions.php:1262
+msgid "THE GOOD:"
+msgstr ""
+
+#: ../functions/general_functions.php:1127
+#: ../functions/general_functions.php:1265
+msgid "THE BAD:"
+msgstr ""
+
+#: ../functions/general_functions.php:1131
+#: ../functions/general_functions.php:1269
+msgid "THE BOTTOM LINE:"
+msgstr ""
+
+#: ../functions/general_functions.php:1136
+#: ../functions/general_functions.php:1274
+msgid "REVIEW:"
+msgstr ""
+
+#: ../functions/general_functions.php:1157
+msgid "Do you think this review is helpful?"
+msgstr ""
+
+#: ../functions/general_functions.php:1199
+#: ../functions/general_functions.php:1327
+msgid "REVIEWED BY:"
+msgstr ""
+
+#: ../functions/general_functions.php:1234
+msgid "User's Rating:"
+msgstr ""
+
+#: ../functions/general_functions.php:1404
+msgid "No one likes this review"
+msgstr ""
+
+#: ../functions/general_functions.php:1407
+msgid "One person likes this review"
+msgstr ""
+
+#: ../functions/general_functions.php:1410
+msgid " people like this review"
+msgstr ""
+
+#: ../functions/general_functions.php:1416
+msgid "No one dislikes this review"
+msgstr ""
+
+#: ../functions/general_functions.php:1419
+msgid "One person dislikes this review"
+msgstr ""
+
+#: ../functions/general_functions.php:1422
+msgid " people dislike this review"
+msgstr ""
+
+#: ../functions/general_functions.php:1773
+#: ../functions/general_functions.php:1806
+msgid "More"
+msgstr ""
+
+#: ../functions/general_functions.php:2849
+msgid "not available"
+msgstr ""
+
+#: ../functions/general_functions.php:3776
+msgid "This's awaiting moderation:"
+msgstr ""
+
+#: ../functions/general_functions.php:3782
+msgid "Write your comment"
+msgstr ""
+
+#: ../functions/general_functions.php:3787
+msgid "Your information"
+msgstr ""
+
+#: ../functions/general_functions.php:3790
+msgid "Your name"
+msgstr ""
+
+#: ../functions/general_functions.php:3795
+msgid "Your name will be displayed on your comment."
+msgstr ""
+
+#: ../functions/general_functions.php:3800
+msgid "Your email"
+msgstr ""
+
+#: ../functions/general_functions.php:3805
+msgid "Your email for display author email"
+msgstr ""
+
+#: ../functions/general_functions.php:3813
+msgid "Comment "
+msgstr ""
+
+#: ../functions/general_functions.php:3822
+msgid "Submit"
+msgstr ""
+
+#: ../functions/general_functions.php:3834
+msgid "Reply"
+msgstr ""
+
+#: ../functions/links.php:6
+msgid "Latest Products"
+msgstr "Latest Movies"
+
+#: ../functions/links.php:10
+msgid "Top Price"
+msgstr ""
+
+#: ../functions/links.php:13
+msgid "Top Review Count"
+msgstr ""
+
+#: ../functions/links.php:16
+msgid "Top View"
+msgstr ""
+
+#: ../functions/links.php:19
+msgid "Top Rating"
+msgstr ""
+
+#: ../functions/post_type.php:9
+msgid "Product Detail"
+msgstr ""
+
+#: ../functions/post_type.php:12
+msgid "Additional Tab"
+msgstr ""
+
+#: ../functions/post_type.php:16
+msgid "SEO for product"
+msgstr ""
+
+#: ../functions/post_type.php:19
+msgid "SEO for page"
+msgstr ""
+
+#: ../functions/post_type.php:22
+msgid "SEO for post"
+msgstr ""
+
+#: ../functions/post_type.php:25
+msgid "SEO for article"
+msgstr ""
+
+#: ../functions/post_type.php:49
+msgid "Rating Count"
+msgstr ""
+
+#: ../functions/post_type.php:57
+msgid "Editor Rating"
+msgstr ""
+
+#: ../functions/post_type.php:65
+msgid "Editor Rating Count"
+msgstr ""
+
+#: ../functions/post_type.php:104
+msgid " characters. Most search engines use a maximum of 60 chars for the title."
+msgstr ""
+
+#: ../functions/post_type.php:109
+msgid "Description:"
+msgstr ""
+
+#: ../functions/post_type.php:114
+msgid " characters. Most search engines use a maximum of 160 chars for the description."
+msgstr ""
+
+#: ../functions/post_type.php:119
+msgid "Keywords (comma separated):"
+msgstr ""
+
+#: ../functions/post_type.php:124
+msgid "Title Attribute:"
+msgstr ""
+
+#: ../functions/post_type.php:129
+msgid "Menu Label:"
+msgstr ""
+
+#: ../functions/post_type.php:135
+msgid "Disable on this page/post:"
+msgstr ""
+
+#: ../functions/seo.php:59
+#, php-format
+msgid "Search Results %1$s "
+msgstr ""
+
+#: ../functions/seo.php:94
+#: ../functions/seo.php:238
+msgid "Page not pound"
+msgstr ""
+
+#: ../functions/seo.php:96
+msgid "List Articles page"
+msgstr ""
+
+#: ../functions/seo.php:97
+msgid "Edit your profile"
+msgstr ""
+
+#: ../functions/seo.php:98
+#: ../functions/seo.php:183
+#: ../functions/seo.php:337
+msgid "Login Page"
+msgstr ""
+
+#: ../functions/seo.php:126
+msgid "Edit profile"
+msgstr ""
+
+#: ../functions/seo.php:132
+msgid "Forgot password"
+msgstr ""
+
+#: ../functions/seo.php:138
+msgid "Login Facebook"
+msgstr ""
+
+#: ../functions/seo.php:144
+msgid "Message"
+msgstr ""
+
+#: ../functions/seo.php:150
+msgid "Suggest product"
+msgstr ""
+
+#: ../functions/seo.php:156
+#: ../functions/seo.php:361
+msgid "List articles page"
+msgstr ""
+
+#: ../functions/seo.php:177
+#: ../functions/seo.php:334
+msgid "Register Page"
+msgstr ""
+
+#: ../functions/seo.php:189
+#: ../functions/seo.php:340
+msgid "Logout Page"
+msgstr ""
+
+#: ../functions/seo.php:195
+#: ../functions/seo.php:343
+msgid "Edit Profile Page"
+msgstr ""
+
+#: ../functions/seo.php:201
+#: ../functions/seo.php:346
+msgid "Porgot Password Page"
+msgstr ""
+
+#: ../functions/seo.php:207
+#: ../functions/seo.php:349
+msgid "Login Facebook Page"
+msgstr ""
+
+#: ../functions/seo.php:213
+#: ../functions/seo.php:352
+msgid "Message Page"
+msgstr ""
+
+#: ../functions/seo.php:219
+#: ../functions/seo.php:355
+msgid "Product Suggest Page"
+msgstr ""
+
+#: ../functions/seo.php:225
+#: ../functions/seo.php:358
+msgid "Compare Page"
+msgstr ""
+
+#: ../functions/seo.php:231
+#: ../functions/seo.php:317
+msgid "List Articles Page"
+msgstr ""
+
+#: ../functions/seo.php:253
+msgid "page"
+msgstr ""
+
+#: ../functions/setup.php:157
+msgid "New Product"
+msgstr ""
+
+#: ../functions/setup.php:158
+msgid "View Product"
+msgstr ""
+
+#: ../functions/setup.php:159
+msgid "Search Product"
+msgstr ""
+
+#: ../functions/setup.php:160
+msgid "No Product found"
+msgstr ""
+
+#: ../functions/setup.php:161
+msgid "No Product found in Trash"
+msgstr ""
+
+#: ../functions/setup.php:189
+msgid "Edit Article"
+msgstr ""
+
+#: ../functions/setup.php:190
+msgid "New Article"
+msgstr ""
+
+#: ../functions/setup.php:191
+msgid "View Article"
+msgstr ""
+
+#: ../functions/setup.php:192
+msgid "Search Article"
+msgstr ""
+
+#: ../functions/setup.php:193
+msgid "No Article found"
+msgstr ""
+
+#: ../functions/setup.php:194
+msgid "No Article found in Trash"
+msgstr ""
+
+#: ../functions/setup.php:220
+msgid "Header Menu"
+msgstr ""
+
+#: ../functions/setup.php:279
+msgid "Everypage Sidebar"
+msgstr ""
+
+#: ../functions/setup.php:281
+msgid "This sidebar display in Homepage, Category, Tags ..."
+msgstr ""
+
+#: ../functions/setup.php:288
+msgid "Homepage Sidebar"
+msgstr ""
+
+#: ../functions/setup.php:290
+msgid "This sidebar display in Homepage only"
+msgstr ""
+
+#: ../functions/setup.php:297
+msgid "Category Sidebar"
+msgstr ""
+
+#: ../functions/setup.php:299
+msgid "This sidebar display in Category page only"
+msgstr ""
+
+#: ../functions/setup.php:306
+msgid "Notification"
+msgstr ""
+
+#: ../functions/setup.php:308
+msgid "Notification displays at the top of the Homepage, single product page, article list page and category page"
+msgstr ""
+
+#: ../functions/setup.php:315
+msgid "Footer Sidebar"
+msgstr ""
+
+#: ../functions/setup.php:317
+msgid "Located in footer"
+msgstr ""
+
+#: ../functions/setup.php:465
+#: ../functions/setup.php:483
+msgid "Not Rating Yet"
+msgstr ""
+
+#: ../functions/widgets/categories_widget.php:4
+msgid "Display categories list"
+msgstr ""
+
+#: ../functions/widgets/categories_widget.php:5
+msgid "RE Categories List"
+msgstr ""
+
+#: ../functions/widgets/categories_widget.php:49
+msgid "Hide empty"
+msgstr ""
+
+#: ../functions/widgets/footer_links_widget.php:4
+msgid "Display specified menu links"
+msgstr ""
+
+#: ../functions/widgets/footer_links_widget.php:5
+msgid "RE Footer links"
+msgstr ""
+
+#: ../functions/widgets/footer_links_widget.php:20
+msgid "Menu to show"
+msgstr ""
+
+#: ../functions/widgets/image_slider_widget.php:4
+msgid "Display your rotating images in the sidebar."
+msgstr ""
+
+#: ../functions/widgets/image_slider_widget.php:5
+msgid "RE Slider Images"
+msgstr ""
+
+#: ../functions/widgets/image_slider_widget.php:102
+msgid "Images Slider"
+msgstr ""
+
+#: ../functions/widgets/image_slider_widget.php:122
+msgid "Milliseconds:"
+msgstr ""
+
+#: ../functions/widgets/image_slider_widget.php:126
+msgid "Image #1"
+msgstr ""
+
+#: ../functions/widgets/image_slider_widget.php:130
+msgid "Url Image #1"
+msgstr ""
+
+#: ../functions/widgets/image_slider_widget.php:134
+msgid "Image #2"
+msgstr ""
+
+#: ../functions/widgets/image_slider_widget.php:138
+msgid "Url Image #2"
+msgstr ""
+
+#: ../functions/widgets/image_slider_widget.php:142
+msgid "Image #3"
+msgstr ""
+
+#: ../functions/widgets/image_slider_widget.php:146
+msgid "Url Image #3"
+msgstr ""
+
+#: ../functions/widgets/image_slider_widget.php:150
+msgid "Image #4"
+msgstr ""
+
+#: ../functions/widgets/image_slider_widget.php:154
+msgid "Url Image #4"
+msgstr ""
+
+#: ../functions/widgets/image_slider_widget.php:158
+msgid "Image #5"
+msgstr ""
+
+#: ../functions/widgets/image_slider_widget.php:162
+msgid "Url Image #5"
+msgstr ""
+
+#: ../functions/widgets/notification_widget.php:4
+msgid "Notification puts Notification area"
+msgstr ""
+
+#: ../functions/widgets/notification_widget.php:5
+msgid "RE Notification"
+msgstr ""
+
+#: ../functions/widgets/notification_widget.php:47
+msgid "Welcome to Review Engine"
+msgstr ""
+
+#: ../functions/widgets/notification_widget.php:60
+msgid "Show in page"
+msgstr ""
+
+#: ../functions/widgets/notification_widget.php:69
+msgid "Article list page"
+msgstr ""
+
+#: ../functions/widgets/notification_widget.php:72
+msgid "Single product page"
+msgstr ""
+
+#: ../functions/widgets/page_widget.php:4
+msgid "Display content of specified page"
+msgstr ""
+
+#: ../functions/widgets/page_widget.php:5
+msgid "RE Page"
+msgstr ""
+
+#: ../functions/widgets/page_widget.php:20
+msgid "Page to show"
+msgstr ""
+
+#: ../functions/widgets/products_widget.php:4
+msgid "Display products in the sidebar."
+msgstr ""
+
+#: ../functions/widgets/products_widget.php:5
+msgid "RE Products"
+msgstr ""
+
+#: ../functions/widgets/products_widget.php:105
+#: ../functions/widgets/users_widget.php:86
+msgid "Sort By:"
+msgstr ""
+
+#: ../functions/widgets/products_widget.php:109
+#: ../pages/compare.php:59
+msgid "Editor's rating"
+msgstr ""
+
+#: ../functions/widgets/products_widget.php:110
+msgid "Product's View Count"
+msgstr ""
+
+#: ../functions/widgets/products_widget.php:111
+#: ../functions/widgets/users_widget.php:90
+msgid "Random"
+msgstr ""
+
+#: ../functions/widgets/products_widget.php:115
+msgid "Number of product to show"
+msgstr ""
+
+#: ../functions/widgets/product_sorting_widget.php:4
+msgid "Display sorting option in category page"
+msgstr ""
+
+#: ../functions/widgets/product_sorting_widget.php:60
+#: ../functions/widgets/recent_article_widget.php:61
+msgid "Recent Article"
+msgstr ""
+
+#: ../functions/widgets/product_sorting_widget.php:64
+msgid "NOTE: please put this widget in \"Category\" Sidebar only"
+msgstr ""
+
+#: ../functions/widgets/product_sorting_widget.php:71
+#: ../functions/widgets/recent_article_widget.php:70
+msgid "Number of article to show"
+msgstr ""
+
+#: ../functions/widgets/recent_article_widget.php:4
+msgid "Display article in the sidebar."
+msgstr ""
+
+#: ../functions/widgets/recent_article_widget.php:5
+msgid "RE Recent Article"
+msgstr ""
+
+#: ../functions/widgets/sidebar_advertising_widget.php:4
+msgid "Advertising put Widget Sidebar Left Area"
+msgstr ""
+
+#: ../functions/widgets/sidebar_advertising_widget.php:5
+msgid "RE Advertising"
+msgstr ""
+
+#: ../functions/widgets/sidebar_advertising_widget.php:32
+msgid "Your Advertising"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:4
+msgid "Display members list in thumbnails"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:5
+msgid "RE Users List"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:50
+msgid "Join Date"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:51
+msgid "Product Reviewed"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:52
+msgid "Total Likes"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:53
+msgid "Total Dislikes"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:88
+msgid "Latest Users"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:89
+msgid "Top Users"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:94
+msgid "User Types:"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:95
+msgid "Administrator"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:98
+msgid "Contributor"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:99
+msgid "Subscriber"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:100
+msgid "Reviewer"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:103
+msgid "Max number of user displayed:"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:105
+msgid "1 line"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:106
+msgid "2 lines"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:107
+msgid "3 lines"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:108
+msgid "4 lines"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:109
+msgid "5 lines"
+msgstr ""
+
+#: ../functions/widgets/users_widget.php:110
+msgid "6 lines"
+msgstr ""
+
+#: ../lib/captchahelper.php:18
+msgid "To use reCaptcha, please register at "
+msgstr ""
+
+#: ../pages/compare.php:19
+msgid "comparison chart"
+msgstr ""
+
+#: ../pages/compare.php:26
+msgid "Product name"
+msgstr ""
+
+#: ../pages/compare.php:161
+msgid "Website"
+msgstr ""
+
+#: ../pages/compare.php:194
+msgid "You haven't choose any product yet, please try again"
+msgstr ""
+
+#: ../pages/edit_profile.php:28
+msgid " Edit Profile"
+msgstr ""
+
+#: ../pages/edit_profile.php:45
+msgid "Your profile updated."
+msgstr ""
+
+#: ../pages/edit_profile.php:51
+msgid "User's Information"
+msgstr ""
+
+#: ../pages/edit_profile.php:53
+#: ../pages/edit_profile.php:59
+msgid "Enter username here"
+msgstr ""
+
+#: ../pages/edit_profile.php:65
+#: ../pages/edit_profile.php:70
+msgid "Enter first name here"
+msgstr ""
+
+#: ../pages/edit_profile.php:76
+#: ../pages/edit_profile.php:81
+msgid "Enter last name here"
+msgstr ""
+
+#: ../pages/edit_profile.php:87
+#: ../pages/edit_profile.php:92
+msgid "Enter profile name here"
+msgstr ""
+
+#: ../pages/edit_profile.php:103
+msgid "User's Account"
+msgstr ""
+
+#: ../pages/edit_profile.php:105
+msgid "Enter email here"
+msgstr ""
+
+#: ../pages/edit_profile.php:110
+msgid "Enter email name here"
+msgstr ""
+
+#: ../pages/edit_profile.php:116
+#: ../pages/edit_profile.php:121
+msgid "Enter password here"
+msgstr ""
+
+#: ../pages/edit_profile.php:127
+#: ../pages/edit_profile.php:132
+msgid "Enter new password here"
+msgstr ""
+
+#: ../pages/edit_profile.php:138
+#: ../pages/edit_profile.php:143
+msgid "Enter new confirm password here"
+msgstr ""
+
+#: ../pages/edit_profile.php:197
+msgid "Please enter your profile name"
+msgstr ""
+
+#: ../pages/edit_profile.php:252
+msgid "Please your enter email"
+msgstr ""
+
+#: ../pages/edit_profile.php:257
+msgid "Email is invalid."
+msgstr ""
+
+#: ../pages/edit_profile.php:267
+msgid "Please enter your password."
+msgstr ""
+
+#: ../pages/edit_profile.php:278
+msgid "Please enter new confirm password."
+msgstr ""
+
+#: ../pages/edit_profile.php:285
+#: ../pages/edit_profile.php:306
+msgid "Confirm password is invalid."
+msgstr ""
+
+#: ../pages/edit_profile.php:300
+msgid "Please enter new password."
+msgstr ""
+
+#: ../pages/edit_profile.php:316
+msgid "Please enter password."
+msgstr ""
+
+#: ../pages/forgot_password.php:17
+msgid " Forgot Password"
+msgstr ""
+
+#: ../pages/forgot_password.php:28
+msgid "Please enter your e-mail address. You will receive a new password via e-mail."
+msgstr ""
+
+#: ../pages/forgot_password.php:35
+#: ../pages/forgot_password.php:40
+msgid "Enter your email here"
+msgstr ""
+
+#: ../pages/forgot_password.php:59
+msgid "Get New Password"
+msgstr ""
+
+#: ../pages/forgot_password.php:79
+msgid "Please enter your email"
+msgstr ""
+
+#: ../pages/forgot_password.php:87
+msgid "Email is invalid"
+msgstr ""
+
+#: ../pages/forgot_password.php:95
+msgid "Please enter security code"
+msgstr ""
+
+#: ../pages/login.php:22
+msgid " Login"
+msgstr ""
+
+#: ../pages/login.php:53
+#: ../pages/login.php:58
+msgid "Enter your passsword here"
+msgstr ""
+
+#: ../pages/login.php:82
+msgid "Forgot your password?"
+msgstr ""
+
+#: ../pages/login.php:101
+#: ../pages/register.php:175
+msgid "Please enter username"
+msgstr ""
+
+#: ../pages/login.php:107
+#: ../pages/register.php:181
+msgid "Please enter your password"
+msgstr ""
+
+#: ../pages/product_articles.php:65
+msgid "This product has no article yet"
+msgstr ""
+
+#: ../pages/product_reviews.php:31
+msgid "This product has no review yet. Be the first to review, click "
+msgstr ""
+
+#: ../pages/product_reviews.php:42
+msgid "Pages:"
+msgstr ""
+
+#: ../pages/product_suggest.php:28
+msgid " Product Suggestion"
+msgstr ""
+
+#: ../pages/product_suggest.php:34
+msgid "Can't find your product? You can suggest your product here and we will consider to update product you suggesting ASAP "
+msgstr ""
+
+#: ../pages/product_suggest.php:45
+msgid "Your Name"
+msgstr ""
+
+#: ../pages/product_suggest.php:50
+msgid "Please enter your name so that we can contact to you later"
+msgstr ""
+
+#: ../pages/product_suggest.php:58
+msgid "Your Email"
+msgstr ""
+
+#: ../pages/product_suggest.php:63
+msgid "Please enter your email so that we can contact to you later. <br /> Check your email format before submitting "
+msgstr ""
+
+#: ../pages/product_suggest.php:74
+msgid "Login as "
+msgstr ""
+
+#: ../pages/product_suggest.php:81
+msgid "Suggestion: "
+msgstr ""
+
+#: ../pages/product_suggest.php:83
+msgid "Summary your suggestion, such as \"Nikon D7000 is missing\", \"You should have review about New Macbook Air...\" "
+msgstr ""
+
+#: ../pages/product_writecomment.php:105
+#: ../pages/product_writereview.php:236
+msgid "Please "
+msgstr ""
+
+#: ../pages/product_writecomment.php:106
+#: ../pages/product_writereview.php:237
+msgid "login"
+msgstr ""
+
+#: ../pages/product_writecomment.php:107
+msgid " to submit the comment"
+msgstr ""
+
+#: ../pages/product_writereview.php:70
+msgid "Please remember to rate for this product"
+msgstr ""
+
+#: ../pages/product_writereview.php:84
+msgid "Your name will be displayed on your review."
+msgstr ""
+
+#: ../pages/product_writereview.php:102
+msgid "Review Title"
+msgstr ""
+
+#: ../pages/product_writereview.php:105
+msgid "Type your review title"
+msgstr ""
+
+#: ../pages/product_writereview.php:111
+msgid "Summarize your review about this product in one line. "
+msgstr ""
+
+#: ../pages/product_writereview.php:112
+msgid " charaters maximum"
+msgstr ""
+
+#: ../pages/product_writereview.php:114
+msgid "Characters left: "
+msgstr ""
+
+#: ../pages/product_writereview.php:120
+msgid "The Good "
+msgstr ""
+
+#: ../pages/product_writereview.php:122
+msgid "What make you like about this product? "
+msgstr ""
+
+#: ../pages/product_writereview.php:124
+#: ../pages/product_writereview.php:137
+#: ../pages/product_writereview.php:150
+msgid " Characters left: "
+msgstr ""
+
+#: ../pages/product_writereview.php:133
+msgid "The Bad "
+msgstr ""
+
+#: ../pages/product_writereview.php:135
+msgid "What make you do not like about this product? "
+msgstr ""
+
+#: ../pages/product_writereview.php:148
+msgid "Explain in detail your opinion about this product. This may be your comment or your experience on using product. This field is optional. "
+msgstr ""
+
+#: ../pages/product_writereview.php:162
+msgid "Your review about this product in detail. "
+msgstr ""
+
+#: ../pages/product_writereview.php:203
+msgid " The posting of advertisements, profanity, or personal attacks are prohibited. "
+msgstr ""
+
+#: ../pages/product_writereview.php:204
+msgid "Click here"
+msgstr ""
+
+#: ../pages/product_writereview.php:204
+msgid " to review our site terms of use."
+msgstr ""
+
+#: ../pages/product_writereview.php:229
+msgid "You have reviewed this product already "
+msgstr ""
+
+#: ../pages/product_writereview.php:238
+msgid " to submit a review"
+msgstr ""
+
+#: ../pages/redirect.php:16
+msgid "There're something wrong with product url, please try it again"
+msgstr ""
+
+#: ../pages/register.php:26
+msgid " Register"
+msgstr ""
+
+#: ../pages/register.php:62
+#: ../pages/register.php:67
+msgid "Enter confirm password here"
+msgstr ""
+
+#: ../pages/register.php:187
+msgid "Please enter your confirm password"
+msgstr ""
+
+#: ../pages/register.php:194
+msgid "Confirm password is invalid"
+msgstr ""
+
+#: ../pages/register.php:216
+msgid "Please enter your frofile name"
+msgstr ""
+
+#: ../pages/search_form.php:13
+#: ../pages/search_form.php:19
+#: ../pages/search_form.php:24
+msgid "All Topics"
+msgstr ""
+
+#: ../pages/search_form.php:84
+msgid "e.g. "
+msgstr ""
+
+#: ../pages/search_form.php:84
+msgid "Apple Macbook Pro"
+msgstr ""
+
+#: ../pages/search_form.php:84
+msgid "Canon EOS 60D"
+msgstr ""
+
+#: ../pages/search_form.php:84
+msgid " etc."
+msgstr ""
+
+#: ../pages/articles/index.php:24
+msgid "Articles of "
+msgstr ""
+
+#: ../pages/articles/index.php:113
+msgid "Unfortunally, there is not article written yet."
+msgstr ""
+
+#: ../processing/edit_profile_processing.php:25
+msgid "Error: New confirm password is invalid."
+msgstr ""
+
+#: ../processing/edit_profile_processing.php:29
+#: ../processing/edit_profile_processing.php:37
+#: ../processing/edit_profile_processing.php:47
+msgid "Error: Password can't be empty"
+msgstr ""
+
+#: ../processing/edit_profile_processing.php:34
+msgid "Error: Incorrect new password and new confirm password."
+msgstr ""
+
+#: ../processing/edit_profile_processing.php:53
+#: ../processing/edit_profile_processing.php:77
+msgid "Error: Password is invalid."
+msgstr ""
+
+#: ../processing/edit_profile_processing.php:60
+msgid "Error: Profile name can't be empty"
+msgstr ""
+
+#: ../processing/edit_profile_processing.php:72
+#: ../processing/forgot_password_processing.php:44
+msgid "Error: Security code is incorrect."
+msgstr ""
+
+#: ../processing/forgot_password_processing.php:20
+#: ../processing/forgot_password_processing.php:67
+msgid "Please check your email to receive new passsword or click "
+msgstr ""
+
+#: ../processing/forgot_password_processing.php:23
+#: ../processing/forgot_password_processing.php:70
+msgid " here"
+msgstr ""
+
+#: ../processing/forgot_password_processing.php:25
+#: ../processing/forgot_password_processing.php:72
+#: ../processing/login_processing.php:63
+msgid " to Home"
+msgstr ""
+
+#: ../processing/forgot_password_processing.php:66
+msgid "Check your e-mail for the confirmation link or click "
+msgstr ""
+
+#: ../processing/forgot_password_processing.php:79
+msgid "Error: Email is not exists."
+msgstr ""
+
+#: ../processing/login_processing.php:18
+msgid "Error: Security code is incorrect"
+msgstr ""
+
+#: ../processing/login_processing.php:39
+msgid "Error: User name or password is incorrect"
+msgstr ""
+
+#: ../processing/login_processing.php:53
+msgid "You've successfully logged in. Click "
+msgstr ""
+
+#: ../processing/login_processing.php:58
+msgid " to view your profile or click "
+msgstr ""
+
+#: ../processing/product_suggest_processing.php:3
+msgid "Please enter your name"
+msgstr ""
+
+#: ../processing/product_suggest_processing.php:5
+msgid "Your email is invalid"
+msgstr ""
+
+#: ../processing/product_suggest_processing.php:6
+msgid "Please enter your suggestion"
+msgstr ""
+
+#: ../processing/product_suggest_processing.php:7
+msgid "Your suggestion is too long, please summary you suggestion to 500 characters"
+msgstr ""
+
+#: ../processing/product_suggest_processing.php:57
+msgid "Your suggestion has been submit, we will respond you as soon as possible. <br />Thank you for your suggestion"
+msgstr ""
+
+#: ../processing/register_processing.php:29
+msgid "Error: Profile name can't be empty."
+msgstr ""
+
+#: ../processing/register_processing.php:33
+msgid "Error: Username can't be empty."
+msgstr ""
+
+#: ../processing/register_processing.php:37
+msgid "Error: Username is invalid."
+msgstr ""
+
+#: ../processing/register_processing.php:41
+msgid "Error: Password can't be empty."
+msgstr ""
+
+#: ../processing/register_processing.php:45
+msgid "Error: Confirm password can't be empty."
+msgstr ""
+
+#: ../processing/register_processing.php:49
+msgid "Error: Confirm password is invalid."
+msgstr ""
+
+#: ../processing/register_processing.php:53
+msgid "Error: Email can't be empty."
+msgstr ""
+
+#: ../processing/register_processing.php:57
+msgid "Error: Email is invalid"
+msgstr ""
+
+#: ../processing/register_processing.php:61
+msgid "Error: Username already exists"
+msgstr ""
+
+#: ../processing/register_processing.php:65
+msgid "Error: Email already exists"
+msgstr ""
+
+#: ../processing/register_processing.php:80
+msgid "Registration is completed. "
+msgstr ""
+
+#: ../processing/register_processing.php:85
+msgid "Check email to receive your account. "
+msgstr ""
+
+#: ../processing/register_processing.php:87
+msgid "Click "
+msgstr ""
+
+#: ../processing/register_processing.php:92
+msgid " to login "
+msgstr ""
+
+#: ../processing/single_article_processing.php:224
+msgid "Pingback:"
+msgstr ""
+
+#: ../processing/single_article_processing.php:224
+msgid "(Edit)"
+msgstr ""
+
+#: ../processing/single_article_processing.php:331
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../processing/single_article_processing.php:332
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: ../processing/single_article_processing.php:337
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../processing/single_article_processing.php:338
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../processing/single_article_processing.php:339
+msgid "Cancel reply"
+msgstr ""
+
+#: ../processing/single_article_processing.php:348
+msgid "Add a comment"
+msgstr ""
+
+#: ../processing/single_product_processing.php:49
+msgid "Title can not be empty"
+msgstr ""
+
+#: ../processing/single_product_processing.php:50
+msgid "Title is too short"
+msgstr ""
+
+#: ../processing/single_product_processing.php:52
+msgid "Please tell us what make you dislike about this product"
+msgstr ""
+
+#: ../processing/single_product_processing.php:53
+#: ../processing/single_product_processing.php:56
+msgid "Your reason is too short"
+msgstr ""
+
+#: ../processing/single_product_processing.php:55
+msgid "Please tell us what make you like about this product"
+msgstr ""
+
+#: ../processing/single_product_processing.php:58
+msgid "You have forgotten rating for this product "
+msgstr ""
+
+#: ../processing/single_product_processing.php:60
+msgid "Your name can not be empty"
+msgstr ""
+
+#: ../processing/single_product_processing.php:61
+msgid "Your email can not be empty"
+msgstr ""
+
+#: ../processing/single_product_processing.php:62
+msgid "Your email invalid."
+msgstr ""
+
+#: ../processing/single_product_processing.php:97
+#: ../processing/single_product_processing.php:102
+#: ../processing/single_product_processing.php:216
+#: ../processing/single_product_processing.php:254
+#: ../processing/single_product_processing.php:313
+msgid "There is error occurred, please try again later"
+msgstr ""
+
+#: ../processing/single_product_processing.php:148
+msgid "Title is too long"
+msgstr ""
+
+#: ../processing/single_product_processing.php:149
+msgid "\"The Good\" of product is too long"
+msgstr ""
+
+#: ../processing/single_product_processing.php:150
+msgid "\"The Bad\" of product is too long"
+msgstr ""
+
+#: ../processing/single_product_processing.php:151
+msgid "\"Bottom line\" of product is too long"
+msgstr ""
+
+#: ../processing/single_product_processing.php:152
+msgid "Review content of prroduct is too long"
+msgstr ""
+
+#: ../processing/single_product_processing.php:230
+msgid "click "
+msgstr ""
+
+#: ../processing/single_product_processing.php:230
+msgid " to go back product's page"
+msgstr ""
+
+#: ../processing/single_product_processing.php:236
+msgid "You have submit a review successfully"
+msgstr ""
+

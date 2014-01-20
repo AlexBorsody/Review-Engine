@@ -1,0 +1,637 @@
+Theme Name:  Review Engine
+Themes are available at URI : http://www.dailywp.com/category/themes/
+
+* ------------- Version: 1.0.1 { 3/Jan/2011 } -------------
+	*= fix redirect feature problem
+	*= fix feed problem
+	*= fix seo settings
+	*= change display name of user
+	*+ add static page template
+	*: file was updated: /pages/redirect.php
+	*: file was updated: /admin/
+	*: file was updated: /admin_processing/admin_general_setting_processing.php
+	*: file was updated: /functions/hook_functions.php
+	*: file was updated: /functions/links.php
+	*: file was updated: /functions/general_functions.php
+	*: file was added: page.php
+	
+* ------------- Version: 1.0.2 { 18/Apr/2011 } -------------
+	*= fix sidebar display to be compatible with other widgets
+	*= fix some bugs with other special language (thai, ...)	
+	*: file was updated: /functions/setup.php
+	*: file was updated: /functions/functions.php
+	*: file was updated: /functions/general_functions.php
+	*: file was updated: /functions.php
+	*: file was updated: /ajax/ajax_admin_specification_rename.php
+	*: file was updated: /css/admin.css
+	*: file was updated: /pages/product_writereview.php
+	*: file was updated: /admin/admin_add_article.php
+	*: file was updated: /admin/list_articles.php
+	*: file was updated: /admin/list_products.php
+	*: file was updated: /sidebar.php
+	*: file was updated: /single-product.php
+	
+* ------------- Version: 1.0.3 { 10/May/2011 } -------------
+	*= fix review order
+	*: file was updated: /style.css
+	*: file was updated: /css/custom.css
+	*: file was updated: /page.php
+	*: file was updated: /header.php
+	*: file was updated: /single-product.php
+	*: file was updated: /functions/general_function.php
+	*: file was updated: /pages/product_reviews.php
+	*: file was updated: /pages/redirect.php
+	*: file was updated: /pages/product_writereview.phps
+	*: file was updated: /pages/single_product_processing.php
+	*: file was updated: /admin/admin.php
+	*: file was updated: /admin/admin_review_settings.php
+	*: file was updated: /admin/admin_list_reviews.php
+	*: file was updated: /admin_processing/admin_review_settings_processing.php
+	
+* ------------- Version: 2.0.0 { 14/June/2011 } -------------
+	New Features:
+		*: New Specification Management
+		*: New Filter Management
+		*: Import/ Export products
+		*: New Product, Article management
+		*: Product Sorting
+		*: SEO
+		*: Review Engine update
+		*: Tab management
+		*: Top Products
+		*: Widgets
+		*: Feed
+		*: Short code
+		*: Currency
+		*: and more
+		
+* ------------- Version: 2.0.1 { 16/June/2011 } -------------
+	*= fix category pagination bug
+	*= fix fetching all products in tag page
+	*= fix search pagination bug
+	*= add editing rating in admin panel
+	*: file was updated:
+		tag.php
+		category.php
+		single-product.php
+		single-article.css
+		index.php
+		search.php
+		style.css
+		functions/hook_functions.php
+		functions/post_type.php
+		functions/general_functions.php
+	
+* ------------- Version: 2.0.2 { 16/June/2011 } -------------
+	*= fix seo bug
+	*= add one panel in admin dashboard
+	*= fix import bug
+	*= add option choose which rating is showed in product list (user rating or editor rating). See more at "review setting"
+	*: file was updated:
+		index.php
+		category.php
+		tag.php
+		search.php
+		style.css
+		admin/admin_review_settings.php
+		admin/admin_dashboard.php
+		admin/admin_seo_settings.php
+		admin/admin.php
+		admin_processing/admin_import_processing.php
+		admin_processing/admin_review_settings_processing.php
+		functions/hook_functions.php
+		functions/seo.php
+		functions/general_functions.php
+		functions/widgets/recent_product_widget.php
+		functions/widgets/users_widget.php
+
+* ------------- Version: 2.0.3 { 17/June/2011 } -------------
+	*= fix seo bug
+	*= fix some numeral mistake
+	*= fix shortcode display
+	*= add search form example
+	*= fix delete button in top product menu
+	*= fix permalink mistake
+	*= fix users widget order
+	*: file was updated:
+		index.php
+		category.php
+		tag.php
+		style.css
+		js/admin_script.js
+		pages/search_form.php
+		processing/single_product_processing.php
+		admin/admin.php
+		admin/admin_export.php
+		admin/admin_dashboard.php
+		admin/admin_review_settings.php
+		admin/admin_spec.php
+		admin/admin_edit_filter.php
+		admin/admin_edit_spec.php
+		admin/admin_top_product.php
+		admin/admin_general_setting.php
+		admin/admin_filter_manager.php
+		admin/admin_seo_settings.php
+		admin_processing/admin_import_processing.php
+		admin_processing/admin_filter_processing.php
+		admin_processing/admin_general_setting_processing.php
+		admin_processing/admin_specification_processing.php
+		admin_processing/admin_review_settings_processing.php
+		admin_processing/seo_setting_processing.php
+		ajax/ajax_admin_delete_top_product.php
+		functions/general_functions.php
+		functions/seo.php
+		functions/constant.php
+		functions/shortcodes.php
+		functions/links.php
+		functions/post_type.php
+		functions/widgets/recent_product_widget.php
+		functions/widgets/users_widget.php
+		
+* ------------- Version: 2.0.4 {June 23, 2011 } -------------
+	*= fix category pagination bug
+	*= fix search pagination bug
+	*: files were updated
+		functions/hook_functions.php
+		category.php
+		search.php
+		404.php
+		style.css
+		
+* ------------- Version: 2.0.4.1 {June 27, 2011 } -------------
+	*= fix seo bugs
+	*: files were updated
+		functions/seo.php
+		functions/general_functions.php
+		
+		
+* ------------- Version: 2.0.4.2 {June 29, 2011 } -------------
+	*= Display no thumbnail when product has one photo
+	*= Make enable to change Product Slug Base URL.
+	*: files were updated
+		single-product.php
+		style.css
+		admin/admin_general_setting.php
+		admin_processing/admin_general_setting_processing.php
+		functions/constant
+		functions/setup.php
+
+* ------------- Version: 2.0.4.3 {July 01, 2011 } -------------
+	*= Add more the check all / uncheck all the categories when add / edit specification and filter	
+	*: files were updated
+		admin/admin_filter_manager.php
+		admin/admin_edit_filter.php
+		admin/admin_spec.php
+		admin/admin_edit_spec.php
+		lang/default.po
+		lang/default.mo
+		style.css
+* ------------- Version: 2.0.4.4 {Aug 01, 2011 } -------------
+	*= Fix various bugs
+	*: files were updated
+		admin/admin_edit_filter.php
+		admin/admin_edit_spec.php
+		admin/admin_filter_manager.php
+		admin/admin_spec.php
+		admin/admin_update.php
+		admin/admin_general_setting.php
+		admin_processing/admin_general_setting_processing.php
+		admin_processing/admin_specification_processing.php
+		functions/general_functions.php
+		functions/setup.php
+		functions/constant.php
+		functions/seo.php
+		functions/hook_functions.php
+		single-product.php
+		style.css
+
+* ------------- Version: 2.0.4.5 {Aug 04, 2011 } -------------
+	*= fix specification & filter input mistaken
+	*: files were updated:
+		admin_processing/admin_filter_processing.php
+		admin_processing/admin_specification_processing.php
+		style.css
+
+* ------------- Version: 2.0.4.5 {Aug 04, 2011 } -------------
+	*= fix specification & filter input mistaken
+	*: files were updated:
+		admin_processing/admin_filter_processing.php
+		admin_processing/admin_specification_processing.php
+		style.css
+	
+* ------------- Version: 2.0.4.6 {Aug 09, 2011 } -------------
+	*= fix ajax request bugs
+	*: files were updated:
+		admin/
+			admin_filter_manager.php
+			admin_spec.php
+			admin_add_article.php
+			admin_tab_manager.php
+			admin_top_product.php
+			admin_add_product.php
+			admin_rating.php
+		ajax/
+			*/php (all files)
+		functions/
+			setup.php
+			links.php
+		pages/
+			product_reviews.php
+			search_form.php
+		Change_Log.txt
+		style.css
+		
+* ------------- Version: 2.0.4.7 {Aug 10, 2011 } -------------
+	*= fix specification values bugs
+	*= fix "redeclare" bug in list reviews page
+	*: files were updated:
+		admin/
+			admin_filter_manager.php
+		ajax/
+			ajax_auto_complete.php
+		Change_Log.txt
+		style.css
+		
+* ------------- Version: 2.0.4.8 {Aug 22, 2011 } -------------
+	*= fix ajax bug in "Add Product"	
+	*= fix autocomplete bugs
+	*: files were updated:
+		function/
+			setup.php
+			post_type.php
+			general_function.php
+		Change_Log.txt
+		style.css
+		
+* ------------- Version: 2.0.4.9 {Aug 30, 2011 } -------------
+	*= fix sorting product by rating
+	*: files were updated:
+		function/
+			hook_functions.php
+		admin/
+			admin_top_product.php
+		index.php
+		Change_Log.txt
+		style.css
+		
+* ------------- Version: 2.0.5.0 {Sep 15, 2011 } -------------
+	*= fix admin dashboard error
+	*= fix missing information when auto save product
+	*: files were added:
+		js/
+			jquery.lightbox.min.js
+		css/
+			jquery.lightbox.css
+		images/
+			lightbox-blank.gif
+			lightbox-btn-close.gif
+			lightbox-btn-prev.gif
+			lightbox-btn-next.gif
+			lightbox-ico-loading.gif
+	*: files were updated:
+		admin/
+			admin.php
+			admin_add_article.php
+			admin_add_product.php
+			admin_dashboard.php
+			admin_list_articles
+			admin_list_products.php
+			admin_list_reviews.php
+			admin_review_settings.php
+			admin_top_product.php		
+		function/
+			post_type.php
+			setup.php
+			seo.php
+		js/
+			jquery.js
+		pages/
+			compare.php
+			edit_profile.php
+			forgot_password.php
+			login.php
+			product_reviews.php
+			product_writereview.php
+			register.php
+			search_form.php		
+		404.php	
+		single-product.php
+		single-article.php
+		author.php
+		category.php
+		comments.php
+		header.php
+		index.php
+		page.php
+		search.php
+		tag.php
+		style.css
+		Change_Log.txt
+		
+* ------------- Version: 2.0.5.1 { Sep 19, 2011 } -------------
+	*= fix paragraph style in Article & Additional tabs
+	*= fix seo feature
+	*= fix editor for additional tabs
+	*: Files were add:
+	css/
+		content.css
+		custom.css
+	functions/
+		post_type.php
+		setup.php
+	header.php
+	page.php
+	single-article.php
+	single-product.php
+	
+* ------------- Version: 2.1.0.0 { Sep 30, 2011 } -------------
+	*= Support footer siderbar & widget
+	*= fix like & dislike in review
+	*: Files added:
+	functions/widgets/
+		footer_links_widget.php
+		page_widget.php
+	*: Files changed:
+	functions/
+		general_functions.php
+		setup.php
+	pages/
+		product_review.php
+	index.php
+	footer.php
+	style.css
+	
+* ------------- Version: 2.1.0.1 { Oct 10, 2011 } -------------
+	*= Fix saving data in article post type
+	*: Files changed:
+	functions/
+		post_type.php
+	footer.php
+	style.css
+	
+* ------------- Version: 2.1.0.2 { Oct 24, 2011 } -------------
+	*= Fix top product issue
+	*: Files changed:
+	functions/
+		general_functions.php
+	admin/
+		admin_top_product.php
+	index.php
+	style.css
+	
+* ------------- Version: 2.2.0.0 { Oct 29, 2011 } -------------
+	*= Fix rendering rating star
+	*= Allow filtering multi-value
+	*= Allow vistor to comment in product page
+	*= Integrate nav menu at header bar
+	*= New widgets: products
+	*= Allow to choose multi-category when searching product
+	
+	Files have been changed:
+	
+	404.php
+	admin/admin.php
+	admin/admin_add_article.php
+	admin/admin_add_product.php
+	admin/admin_dashboard.php
+	admin/admin_edit_filter.php
+	admin/admin_edit_spec.php
+	admin/admin_filter_manager.php
+	admin/admin_general_setting.php
+	admin/admin_list_articles.php
+	admin/admin_list_example.php
+	admin/admin_list_products.php
+	admin/admin_list_reviews.php
+	admin/admin_rating.php
+	admin/admin_review_settings.php
+	admin/admin_spec.php
+	admin/admin_tab_manager.php
+	admin/admin_top_product.php
+	admin/admin_update.php
+	admin_processing/admin_filter_processing.php
+	admin_processing/admin_general_setting_processing.php
+	admin_processing/admin_import_spec_processing.php
+	admin_processing/admin_list_products_processing.php
+	admin_processing/admin_specification_processing.php
+	admin_processing/seo_setting_processing.php
+	ajax/admin_article_auto_save_trash.php
+	ajax/ajax_admin_delete_top_product.php
+	ajax/ajax_admin_filter_delete.php
+	ajax/ajax_admin_filter_rename.php
+	ajax/ajax_admin_get_rating.php
+	ajax/ajax_admin_product_spec_get.php
+	ajax/ajax_admin_rating_delete.php
+	ajax/ajax_admin_rating_edit.php
+	ajax/ajax_admin_search_product.php
+	ajax/ajax_admin_specification_delete.php
+	ajax/ajax_admin_specification_rename.php
+	ajax/ajax_admin_tab_delete.php
+	ajax/ajax_admin_top_product.php
+	ajax/ajax_auto_complete.php
+	ajax/ajax_filter_get.php
+	ajax/ajax_filter_relationship_get.php
+	ajax/ajax_front_post_comment.php
+	ajax/ajax_like_review.php
+	ajax/ajax_spec_get.php
+	ajax/ajax_spec_value_get.php
+	author.php
+	category.php
+	Change_Log.txt
+	comments.php
+	css/content.css
+	css/custom.css
+	css/jquery.lightbox.css
+	css/jquery.mCustomScrollbar.css
+	footer.php
+	functions/constant.php
+	functions/general_functions.php
+	functions/hook_functions.php
+	functions/links.php
+	functions/post_type.php
+	functions/seo.php
+	functions/setup.php
+	functions/shortcodes.php
+	functions/widgets/categories_widget.php
+	functions/widgets/footer_links_widget.php
+	functions/widgets/image_slider_widget.php
+	functions/widgets/notification_widget.php
+	functions/widgets/page_widget.php
+	functions/widgets/products_widget.php
+	functions/widgets/recent_article_widget.php
+	functions/widgets/recent_product_widget.php
+	functions/widgets/top_rated_product_widget.php
+	header.php
+	images/bg_header.jpg
+	images/bg_nav.jpg
+	images/bg_resumer2.png
+	images/lightbox-blank.gif
+	images/lightbox-btn-close.gif
+	images/lightbox-btn-next.gif
+	images/lightbox-btn-prev.gif
+	images/lightbox-ico-loading.gif
+	images/mcs_btnDown.png
+	images/mcs_btnUp.png
+	images/pencil.png
+	index.php
+	js/jquery.bxSlider.js
+	js/jquery.easing.js
+	js/jquery.js
+	js/jquery.lightbox.min.js
+	js/jquery.mCustomScrollbar.js
+	js/jquery.mousewheel.min.js
+	js/script.js
+	js/tiny_scrolbar.js
+	lib/captchahelper.php
+	lib/recaptchalib.php
+	page.php
+	pages/articles/index.php
+	pages/compare.php
+	pages/edit_profile.php
+	pages/forgot_password.php
+	pages/login.php
+	pages/product_reviews.php
+	pages/product_spec.php
+	pages/product_writecomment.php
+	pages/product_writereview.php
+	pages/register.php
+	pages/search_form.php
+	processing/edit_profile_processing.php
+	processing/forgot_password_processing.php
+	processing/login_processing.php
+	processing/register_processing.php
+	processing/sample_process.php
+	processing/single_article_processing.php
+	processing/single_product_processing.php
+	search.php
+	sidebar.php
+	single-article.php
+	single-product.php
+	style.css
+	tag.php
+	
+* ------------- Version: 2.2.1.0 { Oct 29, 2011 } -------------
+	*= Fix various bugs
+	Changed Files:
+		css/custom.css
+		processing/single_product_processing.php
+		functions/hook_functions.php
+		functions/post_type.php
+		functions/setup.php
+		functions/widgets/image_slider_widget.php
+		functions/widgets/products_widget.php
+		pages/product_writecomment.php
+		pages/product_writereview.php
+		pages/search_form.php
+		author.php
+		category.php
+		Change_Log.txt
+		index.php
+		single-product.php
+		tag.php
+		
+* ------------- Version: 2.2.1.0 { Dec 20, 2011 } -------------
+	*= fix javascript bug in ie
+	Modified files
+		style.css
+		single-product.php
+		js/script.js
+
+				
+* ------------- Version: 2.2.1.1 { Dec 21, 2011 } -------------
+	*= fix Permalink bugs for wordpress 3.3
+	*= fix dropped content in some pages
+	Modified files
+		functions/links.php
+		sidebar.php
+		style.css
+		single-product.php
+		
+* ------------- Version: 2.2.1.2 { Dec 21, 2011 } -------------
+	*= 
+	*= 
+	Modified files
+		js/script.js
+		functions/setup.php
+		single-product.php
+		
+* ------------ Version: 2.2.1.3 { Jan 16, 2012 } -------------
+	*= fix facebook authentication
+	Added files:
+		lib/base_facebook.php
+		lib/facebook.php
+	Modified files:
+		functions/general_functions.php
+		functions/hook_functions.php
+		functions/links.php
+		functions/setup.php
+		functions.php
+		header.php
+		index.php
+		js/script.js
+	
+* ------------ Version: 2.2.1.4 { Jan 19, 2012 } -------------
+	*= Make filter compatible with wordpress 3.3
+	Modified files:
+		style.css
+		category.php
+		functions/hook_functions.php		
+		
+* ------------ Version: 2.2.1.5 { Feb 28, 2012 } -------------
+	*= Make filter compatible with wordpress 3.3
+	Modified files:
+		admin/admin_filter_manager.php
+		admin/admin_list_reviews.php
+		admin/admin_spec.php
+		functions/widgets/categories_widget.php
+		functions/general_functions.php
+		functions/post_type.php
+		functions/setup.php
+		functions/seo.php
+		single-product.php
+		header.php
+		js/script.js
+
+
+* ------------ Version: 2.2.1.6 { Mar 14th, 2012 } -------------
+	*= Make review comment works with akismet
+	Changed Files:
+		functions\general_functions.php  
+		functions\post_type.php  
+		header.php  
+		pages\product_writecomment.php  
+		single-product.php  
+
+* ------------ Version: 2.2.1.7 { Mar 19th, 2012 } -------------
+	*= FIX importation bugs
+	*= FIX author's like/dislike count
+	*= FIX review bug.
+	Changed Files:
+		admin/admin_import_spec.php
+		admin_processing/admin_import_spec_processing.php
+		functions/general_functions.php
+		functions/widgets/users_widget.php
+		pages/product_writereview.php
+		pages/product_writecomment.php
+		single-product.php
+
+* ------------ Version: 2.2.2 { Apr 17, 2012 } -------------
+	*= FIX minor bugs
+	Changed Files:
+		js/jquery/tools.min.js
+		functions/links.php
+		functions/hook_function.php
+		header.php
+		footer.php
+		index.php
+
+		
+* ------------ Version: 2.2.3 { Apr 25, 2012 } -------------
+	*= FIX message don't show when input wrong log-in information
+	*= FIX website links in email
+	Changed Files:
+		functions/general_functions.php
+		functions/links.php
+		pages/login.php
+		processing/login_processing.php
+		functions/setup.php
+		functions/general_functions.php

@@ -1,5 +1,3 @@
-
-
 <?php
 global $helper,$wp_query,$posts, $post, $sorting_pages, $current_custom_page;
 get_header();
@@ -154,12 +152,9 @@ else
 													 <div class="vote_star">
 														  <div class="star" style="">
 																<?php
-																//$rating = get_post_meta($post_id, 'tgt_rating', true);
-																//   $rating = get_post_meta($post_id, get_showing_rating(), true);
-                                                                                //	tgt_display_rating( $rating, 'recent_rating_'.$post_id);
-                                                                                //   tgt_display_rating( $rate, 'reviewer_rating_'.$comment->comment_ID.'_'.$rate_ID, true, 'star-disabled' );
-                                                                                //   tgt_display_rating( $rating, 'recent_rating_'.$post_id);
-                                                                                $rating = get_post_meta ( $post->ID , get_showing_rating(),true);
+                                                                                //$rating = get_post_meta ( $post->ID , get_showing_rating(),true);
+                                                                                $rating = get_post_meta ($post_id, PRODUCT_EDITOR_RATING, true);
+                                                                                //$rating = get_post_meta ($post_id, PRODUCT_RATING, true);
                                                                                 tgt_display_rating( $rating, 'top_rating_'.$post->ID, true, 'star-disabled' );
 																?>
 														  </div>	
@@ -232,30 +227,6 @@ else
 			?>       
 			<div class="clear"></div>
 				 <?php
-				 
-				 
-				 
-				 
-				 
-				 
-				 
-				 
-				 
-				 
-				 
-				 
-				 
-				 
-				 
-				 
-				 
-				 
-				 
- 
-
-				 
-				
-				 
                          global $wp_query, $wpdb; 
                          $max = $wp_query->max_num_pages;
                          $paged = ( isset($_GET['paged']) ) ? $_GET['paged'] : 1;
@@ -329,7 +300,8 @@ else
 								<div class="vote_star" style="text-align: center">	
 									<div class="star" style="">
 									<?php
-									$rating = get_post_meta ( $post->ID , get_showing_rating(),true);
+									//$rating = get_post_meta ( $post->ID , get_showing_rating(),true);
+									$rating = get_post_meta ($post_id, PRODUCT_EDITOR_RATING, true);
 									tgt_display_rating( $rating, 'top_rating_'.$post->ID, true, 'star-disabled' );
 									?>	
 									</div>
