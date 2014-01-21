@@ -6,7 +6,7 @@ function custom_meta_box()
 {
 	add_meta_box("article_search_product", __('Product','re'),  "search_product", "article", "normal", "high");		
 	add_meta_box("product_rating", __('Rating', 're'), 'product_rating_meta_box', 'product', 'normal', 'high' );
-	//add_meta_box("product_detail", __('Product Detail','re'),  "detail_product", "product", "normal", "high");
+	add_meta_box("product_detail", __('Agency Detail','re'),  "detail_product", "product", "normal", "high");
 	add_meta_box("product_specification", __('Specification','re'),  "specification_product", "product", "normal", "high");
 	//add_meta_box("product_filter", __('Filter','re'),  "filter_product", "product", "side");	
 	add_meta_box("product_tab", __('Additional Tab','re'),  "additional_tab", "product", "normal", "low");
@@ -271,14 +271,14 @@ function detail_product($post)
 	?>
 		<input type="hidden" name="insert_nonce" value="<?php echo wp_create_nonce('insert-product') ?>" />
 		<div class="inside">
-			<p>
+			<!--<p>
 			<label for="link_product"> <?php _e('Price','re') ?>:  </label><br />			
 			<input type="text" name="product[price]" value="<?php if (!empty($product['price'])) echo $product['price'] ?>"/>
 			</p>
-			<p class="howto"> <?php _e('Specify product price. You can freely specify price format like $1000, $1.000 ... ','re') ?> </p>
+			<p class="howto"> <?php _e('Specify product price. You can freely specify price format like $1000, $1.000 ... ','re') ?> </p>-->
 			
 			<p>
-				<label for="link_product"> <?php _e('Link product','re') ?>:  </label><br />
+				<label for="link_product"> <?php _e('Link agency','re') ?>:  </label><br />
 				<input type="text" id="link_product" name="product[url]" size="40px;" value="<?php if (!empty($product['url'])) echo $product['url'];?>"/>
 			</p>
 			<?php 
