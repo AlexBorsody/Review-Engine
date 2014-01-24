@@ -1,4 +1,8 @@
 <?php
+
+
+add_image_size('featuredImageScale', 150, 150, false);
+/*************/
 define('FACEBOOK_APP_ID', get_option('tgt_fb_app_id'));
 define('FACEBOOK_SECRET', get_option('tgt_fb_app_secret'));
 

@@ -248,7 +248,7 @@ $cate_obj  = get_category($cat,false);
 								//$thumb_url = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ) , array( 104, 84) );
 								echo '<div class="index-thumb">';
 								//tgt_the_product_thumb( $thumb_url[0] , 104 , 84);
-								echo wp_get_attachment_image( get_post_thumbnail_id( $post->ID ) , array( 104, 84) , false, array( 'alt' =>  $post->post_title ) );
+								the_post_thumbnail('featuredImageCropped');	
 								echo '</div>';
 							}
 							else

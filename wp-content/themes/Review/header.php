@@ -37,7 +37,7 @@ global $helper,$current_user;
 $helper->favicon();
 ?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
 <?php wp_head(); ?>
 
 
@@ -126,13 +126,13 @@ $main_category = get_categories($args);
 								</script>
 								<?php } ?>
 								<ul>
-								<li><?php echo $helper->link('<strong>'.__('Login', 're').'</strong>', tgt_get_permalink('login') );?>
-								<?php echo $helper->image('li_arrow1.gif', 'arrow')?>
-								</li>
+								<!--<li><?php// echo $helper->link('<strong>'.__('Login', 're').'</strong>', tgt_get_permalink('Login') );?>
+								<?php //echo $helper->image('li_arrow1.gif', 'arrow')?>
+								</li>-->
 						<?php if($enable_fb_login) {?>
-								<li id="fb_login"><?php echo $helper->link($helper->image('icon_facebook.gif', 'fb_login'), ''); ?> Login with Facebook</li>
+								<li id="fb_login"><?php echo $helper->link($helper->image('icon_facebook.gif', 'fb_login'), ''); ?>&nbsp;   &nbsp; Or </li>
 						<?php }?>
-								<li><?php echo $helper->link('<strong>'.__('Register','re').'</strong>', tgt_get_permalink('register') )?>
+								<li><?php echo $helper->link('<strong>'.__('Register Anonymously','re').'</strong>', tgt_get_permalink('register') )?>
 								<?php echo $helper->image('li_arrow1.gif', 'arrow')?></li>
 								
 								</ul>

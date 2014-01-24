@@ -208,7 +208,7 @@ function processRequest() {
 							elements += ''
 							+ '<li id="suggest-item-' + i + '" class="suggest-item" onmouseover="changeStatus(' + i + ')" onclick="redirectToProduct(' + i + ')">'
 								+ '<img class="si-image" src="' + products[i].thumb +  '" alt="' + products[i].post_title + '"/>'
-								+ '<p class="si-title"><span style="font-size:12pt;">' + products[i].post_highlight + '</span></p>'
+								+ '<p class="si-title"><span ">' + products[i].post_highlight + '</span></p>'
 								+ '<div class="si-rating">'
 								+ rating_message
 								+ '</div>'
@@ -229,7 +229,7 @@ function processRequest() {
 						}
 						jQuery('.suggest-list').html( elements );
 						
-						jQuery('#suggest').fadeIn( 500 );
+						jQuery('#suggest').fadeIn( 200 );
 
 						jQuery('.star-disabled').rating();
 					}

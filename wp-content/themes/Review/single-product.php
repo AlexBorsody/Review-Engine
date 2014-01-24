@@ -50,19 +50,19 @@ $open_comment = comments_open();
 									</p>
 								</div>
 											
-								<div class="title_right" style="float:right;">
+							<!--	<div class="title_right" style="float:right;">
 									<p class="rate" style="color:#9facac;"><?php _e("Agency Rating",'re'); ?>:</p>
 									<div class="vote_star">
 										<div class="star">
 											<?php
-											tgt_display_rating($product['rating']['user']['rating'], 'product[rating][user]')
+										//	tgt_display_rating($product['rating']['user']['rating'], 'product[rating][user]')
 											?>
 										</div>
 									</div>
-								</div>
+								</div>-->
 								
 								<div class="title_right" style="float:right; margin-right:20px;">
-									<p class="rate"><?php _e("Users Rating","re"); ?>:</p>
+									<p class="rate"><?php _e("Rating","re"); ?>:</p>
 									<div class="vote_star">
 										<div class="star">
 											<?php

@@ -258,7 +258,7 @@ box-shadow:  1px 1px 1px 0px rgb(170, 170, 170);
     height: auto;
     margin: 17px 20px 0;
     padding: 0;
-    width: 350px;
+    width: 440px;
 }
 .topic_hover {
     display: none;
@@ -472,6 +472,8 @@ box-shadow:  1px 1px 1px 0px rgb(170, 170, 170);
 .box ul li a:hover {
     text-decoration: underline;
 }
+
+.search-results .box_butt {display:none;}
 .box_butt {
     display: inline;
     float: right;
@@ -1894,7 +1896,7 @@ table tbody tr td span.ts a:hover {
     line-height: 20px;
 }
 .combo {
-    display: block;
+    display: none;
     float: right;
     height: auto;
     margin: 0 60px 0 0;

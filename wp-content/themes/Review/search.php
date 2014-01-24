@@ -169,7 +169,7 @@ get_header();
 							if( has_post_thumbnail ($post->ID) ){
 								//$thumb_url = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID) , 'medium' );								
 								echo '<div class="index-thumb"><a href="'. get_permalink() .'">';
-								echo wp_get_attachment_image( get_post_thumbnail_id( $post->ID ) , array( 104, 84) , false, array( 'alt' =>  $post->post_title ) );
+								echo the_post_thumbnail('featuredImageCropped');
 								echo '</a></div>';
 							}
 							else
@@ -178,8 +178,8 @@ get_header();
 							<div class="vote_star">
 								<div class="star" style="">
 								<?php
-								$rating = get_post_meta($post->ID, get_showing_rating(),true);
-								tgt_display_rating( $rating, 'recent_rating_'.$post->ID);
+						      	$rating = get_post_meta ($post_id, PRODUCT_EDITOR_RATING, true);
+									tgt_display_rating( $rating, 'top_rating_'.$post->ID, true, 'star-disabled' );
 								?>
 								</div>	
 							</div>

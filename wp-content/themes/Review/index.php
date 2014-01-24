@@ -69,7 +69,7 @@ else
 			     <li><div id="iconSecond"></div>
 			          <div id="textSecond">If a creative agency you hired is not listed, you can add it, an employee of Agencycheck.net will manually review your submission and approve it.</div></li>
 			     <li><div id="iconThird"></div>
-			           <div id="textThird">You can rate the creative agency you submitted after approval<br> or review an existing agency you have hired already in our database</div></li>
+			           <div id="textThird">You can rate an agency you added or a company in our database. <i>You may remain completely anonymous,</i> if the review is negative the agency will be able to give their side of the story.</div></li>
 		     </ul>
           </nav>
           </div>
@@ -138,7 +138,7 @@ else
 										<?php
 													 if( has_post_thumbnail() ){
 														  echo '<div class="index-thumb">';
-														  echo wp_get_attachment_image( get_post_thumbnail_id(), array(104, 84) );
+														  echo the_post_thumbnail('featuredImageCropped');
 														  //tgt_the_product_thumb(URL_UPLOAD.'/'.$image_thumb[0]['thumb'],104,84);											
 														  echo '</div>';
 													 }
@@ -292,7 +292,7 @@ else
 								if( has_post_thumbnail ($post_id) ){
 									 $thumb_url =  wp_get_attachment_image_src( get_post_thumbnail_id($post_id), array( 104, 84) );
 									 echo '<div class="index-thumb">';								  
-									 echo wp_get_attachment_image( get_post_thumbnail_id($post_id), array( 104, 84) );				  
+									 echo the_post_thumbnail('featuredImageCropped');				  
 									 echo '</div>';
 								} else {
 									echo '<img src="'.TEMPLATE_URL.'/images/no_image.jpg" style="width:104px;height:84px;" alt=""/>';
